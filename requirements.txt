@@ -112,4 +112,4 @@ kafka-python-ng
 
 # PyMySQL - MySQL client library
 # Uncomment the line below to install PyMySQL.
-# PyMySQL
+PyMySQL
