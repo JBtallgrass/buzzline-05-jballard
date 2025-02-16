@@ -1,186 +1,183 @@
-# buzzline-05-case
+![Banner](images/banner.png)
 
-Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
-In this example project, we incorporate a relational data store. 
-We use SQLite, but the example could be altered to work with MySQL, PostgreSQL, or MongoDB.
+## 🧑‍💼 Jason A. Ballard  
+**Instructional Systems Special | Data Scientist | Data and AI Officer | Data Literacy Advocate | Educator in Professional Military Education**
 
-## VS Code Extensions
+Welcome! I'm Jason A. Ballard, an experienced data and AI integration leader currently serving as a Data and AI Officer for the **US Army Combined Arms Center** at Fort Leavenworth, Kansas. My work bridges data science, AI strategy, and higher education, focusing on transforming decision-making through data literacy and innovation.
 
-- Black Formatter by Microsoft
-- Markdown All in One by Yu Zhang
-- PowerShell by Microsoft (on Windows Machines)
-- Pylance by Microsoft
-- Python by Microsoft
-- Python Debugger by Microsoft
-- Ruff by Astral Software (Linter)
-- SQLite Viewer by Florian Klampfer
-- WSL by Microsoft (on Windows Machines)
+I invite you to explore my GitHub repository [jbtallgrass](https://github.com/JBtallgrass?tab=repositories), where I share insights, tools, and resources geared toward data literacy and advanced analytics in educational contexts. My projects emphasize practical solutions, open collaboration, and a commitment to enhancing data accessibility across teams.
 
-## Task 1. Use Tools from Module 1 and 2
+### 🔑 Key Areas of Focus:
+- **Data Strategy & Governance**: Developing frameworks that promote data-driven decision-making and cross-departmental data sharing.  
+- **AI & Analytics**: Leveraging data analytics and GenAI to unlock insights and drive transformational initiatives within Army University.  
+- **Data Literacy & Education**: Equipping leaders and students with data literacy skills critical for today's complex, data-rich environments.  
 
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first. 
+Please don't hesitate to connect, collaborate, or contact me if our interests align. **Let's make data-driven transformation a reality together.**  
 
-Versions matter. Python 3.11 is required. See the instructions for the required Java JDK and more. 
+📍 **LinkedIn**: [Jason A. Ballard](https://www.linkedin.com/in/jasonaballard)
 
-## Task 2. Copy This Example Project and Rename
-
-Once the tools are installed, copy/fork this project into your GitHub account
-and create your own version of this project to run and experiment with. 
-Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/docs/FORK-THIS-REPO.md).
-
-OR: For more practice, add these example scripts or features to your earlier project. 
-You'll want to check requirements.txt, .env, and the consumers, producers, and util folders. 
-Use your README.md to record your workflow and commands. 
-    
-
-## Task 3. Manage Local Project Virtual Environment
-
-Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/docs/MANAGE-VENV.md) to:
-1. Create your .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
-
-## Task 4. Start Zookeeper and Kafka (Takes 2 Terminals)
-
-If Zookeeper and Kafka are not already running, you'll need to restart them.
-See instructions at [SETUP-KAFKA.md] to:
-
-1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
-2. Start Kafka Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
+**GitHub** : [jbtallgrass](https://github.com/JBtallgrass)
+---
+# 🌊 Rafting Feedback Streaming Project (Module 5)
+---
+## 📚 Table of Contents  
+- [Project Overview](#project-overview)  
+- [Technologies Used](#technologies-used)  
+- [Setup & Requirements](#setup--requirements)  
+- [Project Components](#project-components)  
+- [Workflow](#workflow)  
+- [Project Structure](#project-structure)  
+- [Commands Reference](#commands-reference)  
 
 ---
 
-## Task 5. Start a New Streaming Application
+### 📌 Project Overview  
 
-This will take two more terminals:
+This project demonstrates how to build a **streaming analytics pipeline** using **Apache Kafka**, **Python**, and a **relational database (SQLite)** for data storage. It simulates real-time data generation, ingestion, and processing while storing processed data in a structured database for further analysis and integration with BI tools.  
 
-1. One to run the producer which writes messages. 
-2. Another to run the consumer which reads messages, processes them, and writes them to a data store. 
+---
+# 🌊 Rafting Feedback Streaming Project
 
-### Producer (Terminal 3) 
-
-Start the producer to generate the messages. 
-The existing producer writes messages to a live data file in the data folder.
-If Zookeeper and Kafka services are running, it will try to write them to a Kafka topic as well.
-For configuration details, see the .env file. 
-
-In VS Code, open a NEW terminal.
-Use the commands below to activate .venv, and start the producer. 
-
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m producers.producer_case
-```
-
-Mac/Linux:
-```zsh
-source .venv/bin/activate
-python3 -m producers.producer_case
-```
-
-The producer will still work if Kafka is not available.
-
-### Consumer (Terminal 4) - Two Options
-
-Start an associated consumer. 
-You have two options. 
-1. Start the consumer that reads from the live data file.
-2. OR Start the consumer that reads from the Kafka topic.
-
-In VS Code, open a NEW terminal in your root project folder. 
-Use the commands below to activate .venv, and start the consumer. 
-
-Windows:
-```shell
-.venv\Scripts\activate
-py -m consumers.kafka_consumer_case
-OR
-py -m consumers.file_consumer_case
-```
-
-Mac/Linux:
-```zsh
-source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
-OR
-python3 -m consumers.file_consumer_case
-```
+This project is designed to **stream, process, and analyze real-time customer feedback** from rafting trips on the **French Broad River, NC**, using **Apache Kafka**. It integrates customer reviews with **weather and river flow conditions**, providing valuable insights into trip experiences and environmental impacts.
 
 ---
 
-## Review the Project Code
-
-Review the requirements.txt file. 
-- What - if any - new requirements do we need for this project?
-- Note that requirements.txt now lists both kafka-python and six. 
-- What are some common dependencies as we incorporate data stores into our streaming pipelines?
-
-Review the .env file with the environment variables.
-- Why is it helpful to put some settings in a text file?
-- As we add database access and passwords, we start to keep two versions: 
-   - .evn 
-   - .env.example
- - Read the notes in those files - which one is typically NOT added to source control?
- - How do we ignore a file so it doesn't get published in GitHub (hint: .gitignore)
-
-Review the .gitignore file.
-- What new entry has been added?
-
-Review the code for the producer and the two consumers.
- - Understand how the information is generated by the producer.
- - Understand how the different consumers read, process, and store information in a data store?
-
-Compare the consumer that reads from a live data file and the consumer that reads from a Kafka topic.
-- Which functions are the same for both?
-- Which parts are different?
-
-What files are in the utils folder? 
-- Why bother breaking functions out into utility modules?
-- Would similar streaming projects be likely to take advantage of any of these files?
-
-What files are in the producers folder?
-- How do these compare to earlier projects?
-- What has been changed?
-- What has stayed the same?
-
-What files are in the consumers folder?
-- This is where the processing and storage takes place.
-- Why did we make a separate file for reading from the live data file vs reading from the Kafka file?
-- What functions are in each? 
-- Are any of the functions duplicated? 
-- Can you refactor the project so we could write a duplicated function just once and reuse it? 
-- What functions are in the sqlite script?
-- What functions might be needed to initialize a different kind of data store?
-- What functions might be needed to insert a message into a different kind of data store?
+### ⚠️ Note: ⚠️
+The data in this project is **fictitious** with the use of  **Generative AI (GenAI)** assistants to **generate, problem-solve, and debug** the process.
 
 ---
 
-## Explorations
+### 🎯 Goals  
+- **Real-time processing** of structured (CSV) and semi-structured (JSON) data.  
+- **Automated enrichment** of feedback with weather and river conditions.  
+- **Performance tracking** for rafting guides based on customer reviews.  
+- **Predictive insights** into trip satisfaction and environmental impact.  
 
-- Did you run the kafka consumer or the live file consumer? Why?
-- Can you use the examples to add a database to your own streaming applications? 
-- What parts are most interesting to you?
-- What parts are most challenging? 
+### 🚣 Data Sources  
+- **Customer Feedback**: Reviews from rafting trip participants.  
+- **Weather Conditions**: Temperature, wind speed, and precipitation.  
+- **River Flow Levels**: Water level, current speed, and temperature.  
+
+### ⚡ Technologies Used  
+- **Apache Kafka**: Real-time message streaming and processing.  
+- **Python**: Data generation, transformation, and analytics.  
+- **dotenv**: Environment variable management.  
+- **Loguru**: Logging feedback and performance.  
+- **matplotlib**: Data visualization for performance trends.  
+- **Pandas**: Data manipulation and analysis.  
+- **VS Code**: Development environment.  
+- **SQLite**: Relational database for storing processed data.  
+
+### 🔑 Key Features  
+- **Real-time data ingestion** from a Kafka topic or a live data file.  
+- **Data storage and processing** in SQLite, demonstrating integration with relational databases.  
+- **Multiple consumer options**: File-based consumer for testing or Kafka-based consumer for real-time processing.  
 
 ---
 
-## Later Work Sessions
-When resuming work on this project:
-1. Open the folder in VS Code. 
-2. Open a terminal and start the Zookeeper service. If Windows, remember to start wsl. 
-3. Open a terminal and start the Kafka service. If Windows, remember to start wsl. 
-4. Open a terminal to start the producer. Remember to activate your local project virtual environment (.env).
-5. Open a terminal to start the consumer. Remember to activate your local project virtual environment (.env).
+## 🛠️ Setup & Requirements
 
-## Save Space
-To save disk space, you can delete the .venv folder when not actively working on this project.
-You can always recreate it, activate it, and reinstall the necessary packages later. 
-Managing Python virtual environments is a valuable skill. 
+### ✅ Prerequisites
+- **Python 3.11+**
+- **Kafka & Zookeeper** installed and running.
+    - bin/zookeeper-server-start.sh config/zookeeper.properties
+    - bin/kafka-server-start.sh config/server.properties
+  - **Virtual Environment** set up for dependency management.
 
-## License
-This project is licensed under the MIT License as an example project. 
-You are encouraged to fork, copy, explore, and modify the code as you like. 
-See the [LICENSE](LICENSE.txt) file for more.
+### 📥 Installation and Setup
+
+1. Clone the project:
+   
+2. Create and activate a virtual environment:
+   
+3. Install dependencies:
+  
+4. Set up Kafka and Zookeeper:
+   Follow the instructions in [Kafka Install Guide](Jballard_docs/kafka-install-guide.md).
+
+5. Configure environment variables in `.env`:
+   ```
+   ZOOKEEPER_ADDRESS=172.30.179.152:2181
+   KAFKA_BROKER_ADDRESS=172.30.179.152:9092
+   KAFKA_CONNECTION_TIMEOUT=30000
+   RAFTING_TOPIC=rafting_feedback
+   RAFTING_INTERVAL_SECONDS=2
+   ```
+---
+
+## 🔹 Project Components
+
+### 1. Data Generation
+- **Weather Data** (`utils_generate_weather_data.py`): Generates synthetic weather data for the rafting region.
+- **River Flow Data** (`utils_generate_river_flow.py`): Creates realistic river flow conditions.
+- **Rafting Feedback** (`utils_generate_rafting_data.py`): Produces customer reviews with a mix of positive and negative feedback.
+
+### 2. Kafka Producers and Consumers
+- **Rafting Producer (`rafting_producer.py`)**: Streams generated feedback data to the `rafting_feedback` topic.
+- **JSON Consumer (`rafting_consumer.py`)**: Logs all feedback, flags negative comments, and enriches messages with weather and river data.
+- **CSV Consumer (`csv_rafting_consumer.py`)**: Processes JSON feedback and republishes it as CSV-friendly structured data.
+- **CSV Feedback Consumer (`csv_feedback_consumer.py`)**: Writes structured feedback to a CSV file for analysis.
+- **Processed CSV Producer (`csv_rafting_producer.py`)**: Enhances and republishes CSV feedback with status flags and trip disruption alerts.
+
+### 3. Visualization
+- **Real-Time Feedback Charts (`jb_project_consumer.py`)**:
+  - Positive vs. Negative feedback.
+  - Weekly performance trends.
+  - Weather impact on feedback.
+  - River flow and feedback correlation.
+
+---
+
+## 🔄 Workflow
+
+1. **Data Generation**: Run `rafting_producer.py` to generate and stream rafting feedback.
+2. **Real-Time Feedback Processing**: Consumers enrich, log, and publish processed feedback.
+3. **Visualization**: `jb_project_consumer.py` updates charts every 10 messages.
+
+---
+
+## 📊 Visualizations
+
+- **Positive vs. Negative Feedback (Bar Chart)** 
+- **Weekly Feedback Trends (Line Chart)**
+- **Weather vs. Negative Feedback (Bar Chart)**
+- **River Flow vs. Feedback Type (Box Plot)**
+
+---
+
+## 📂 Project Structure
+
+```
+├── data/                  # Generated data files
+├── images/                # Visualization charts
+├── utils/                 # Utility scripts for data generation and logging
+├── producers/             # Kafka producers
+├── consumers/             # Kafka consumers
+├── .env                   # Environment variables
+├── requirements.txt       # Project dependencies
+└── README.md              # Project documentation
+```
+
+## ⚠️ Important Notes
+
+1. Ensure Kafka and Zookeeper are running before starting producers or consumers.
+2. Always verify environment variables in the `.env` file.
+3. Regularly check logs in `logs/rafting_project_log.log`.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. You are encouraged to fork, modify, and explore the code.
+
+[![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) 
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jason%20A.%20Ballard-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jasonaballard/)  
+
+---
+_Project completed Februray 16th 2025_
+---
+
