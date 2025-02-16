@@ -17,10 +17,12 @@ Please don't hesitate to connect, collaborate, or contact me if our interests al
 
 📍 **LinkedIn**: [Jason A. Ballard](https://www.linkedin.com/in/jasonaballard)
 
-**GitHub** : [jbtallgrass](https://github.com/JBtallgrass)
+📍 **GitHub**: [jbtallgrass](https://github.com/JBtallgrass)
 ---
 # 🌊 Rafting Feedback Streaming Project (Module 5)
+
 ---
+
 ## 📚 Table of Contents  
 - [Project Overview](#project-overview)  
 - [Technologies Used](#technologies-used)  
@@ -37,11 +39,9 @@ Please don't hesitate to connect, collaborate, or contact me if our interests al
 This project demonstrates how to build a **streaming analytics pipeline** using **Apache Kafka**, **Python**, and a **relational database (SQLite)** for data storage. It simulates real-time data generation, ingestion, and processing while storing processed data in a structured database for further analysis and integration with BI tools.  
 
 ---
-# 🌊 Rafting Feedback Streaming Project
+## 🌊 Rafting Feedback Streaming Project Description
 
 This project is designed to **stream, process, and analyze real-time customer feedback** from rafting trips on the **French Broad River, NC**, using **Apache Kafka**. It integrates customer reviews with **weather and river flow conditions**, providing valuable insights into trip experiences and environmental impacts.
-
----
 
 ### ⚠️ Note: ⚠️
 The data in this project is **fictitious** with the use of  **Generative AI (GenAI)** assistants to **generate, problem-solve, and debug** the process.
@@ -130,11 +130,11 @@ The data in this project is **fictitious** with the use of  **Generative AI (Gen
 ---
 
 ## 🔄 Workflow
-
-1. **Data Generation**: Run `rafting_producer.py` to generate and stream rafting feedback.
-2. **Real-Time Feedback Processing**: Consumers enrich, log, and publish processed feedback.
-3. **Visualization**: `jb_project_consumer.py` updates charts every 10 messages.
-
+Here’s the workflow for the project:
+**Data Generation**: The producer (rafting_producer.py) simulates real-time data, streaming messages to a Kafka topic or saving them to a live data file.
+**Real-Time Feedback Processing**: Consumers read messages from the Kafka topic or process, enrich the data (e.g., adding weather and river conditions), and store the processed results in the SQLite database for persistence and further analysis.
+**Data Storage**: SQLite serves as the data store for processed data, enabling historical reference, integration with BI tools, and deeper insights into rafting feedback.
+**Visualization**: jb_project_consumer.py updates real-time charts every 10 messages, visualizing positive vs. negative feedback, weather impact on feedback, and river flow correlations.
 ---
 
 ## 📊 Visualizations
