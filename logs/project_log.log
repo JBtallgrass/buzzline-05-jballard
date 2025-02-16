@@ -1356,3 +1356,65 @@
 2025-02-11 21:58:33.718 | ERROR    | utils.utils_producer:check_kafka_service_is_ready:70 - Error checking Kafka: NodeNotReadyError
 2025-02-11 21:58:33.719 | ERROR    | utils.utils_producer:verify_services:89 - Kafka broker is not ready. Please check your Kafka setup. Exiting...
 2025-02-11 21:58:33.720 | INFO     | __main__:main:209 - Consumer shutting down.
+2025-02-16 12:44:14.630 | INFO     | utils.utils_logger:<module>:43 - Logging to file: logs\project_log.log
+2025-02-16 12:44:14.635 | INFO     | __main__:main:125 - Starting Producer to run continuously.
+2025-02-16 12:44:14.635 | INFO     | __main__:main:126 - Things can fail or get interrupted, so use a try block.
+2025-02-16 12:44:14.635 | INFO     | __main__:main:127 - Moved .env variables into a utils config module.
+2025-02-16 12:44:14.635 | INFO     | __main__:main:129 - STEP 1. Read required environment variables.
+2025-02-16 12:44:14.635 | INFO     | utils.utils_config:get_message_interval_seconds_as_int:65 - MESSAGE_INTERVAL_SECONDS: 5
+2025-02-16 12:44:14.636 | INFO     | utils.utils_config:get_kafka_topic:58 - BUZZ_TOPIC: buzzline
+2025-02-16 12:44:14.636 | INFO     | utils.utils_config:get_kafka_broker_address:51 - KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-02-16 12:44:14.636 | INFO     | utils.utils_config:get_base_data_path:80 - BASE_DATA_DIR: C:\Users\balla\Projects\buzzline-05-jballard\data
+2025-02-16 12:44:14.636 | INFO     | utils.utils_config:get_live_data_path:89 - LIVE_DATA_PATH: C:\Users\balla\Projects\buzzline-05-jballard\data\project_live.json
+2025-02-16 12:44:14.637 | INFO     | __main__:main:140 - STEP 2. Delete the live data file if exists to start fresh.
+2025-02-16 12:44:14.637 | INFO     | __main__:main:147 - STEP 3. Build the path folders to the live data file if needed.
+2025-02-16 12:44:14.637 | INFO     | __main__:main:153 - STEP 4. Try to create a Kafka producer and topic.
+2025-02-16 12:44:14.637 | INFO     | utils.utils_config:get_zookeeper_address:44 - ZOOKEEPER_ADDRESS: 127.0.0.1:2181
+2025-02-16 12:44:15.682 | INFO     | utils.utils_logger:<module>:43 - Logging to file: logs\project_log.log
+2025-02-16 12:44:15.790 | INFO     | __main__:main:167 - Starting Consumer to run continuously.
+2025-02-16 12:44:15.790 | INFO     | __main__:main:168 - Things can fail or get interrupted, so use a try block.
+2025-02-16 12:44:15.790 | INFO     | __main__:main:169 - Moved .env variables into a utils config module.
+2025-02-16 12:44:15.790 | INFO     | __main__:main:171 - STEP 1. Read environment variables using new config functions.
+2025-02-16 12:44:15.790 | INFO     | utils.utils_config:get_kafka_topic:58 - BUZZ_TOPIC: buzzline
+2025-02-16 12:44:15.790 | INFO     | utils.utils_config:get_kafka_broker_address:51 - KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-02-16 12:44:15.790 | INFO     | utils.utils_config:get_kafka_consumer_group_id:72 - BUZZ_CONSUMER_GROUP_ID: buzz_group
+2025-02-16 12:44:15.790 | INFO     | utils.utils_config:get_message_interval_seconds_as_int:65 - MESSAGE_INTERVAL_SECONDS: 5
+2025-02-16 12:44:15.790 | INFO     | utils.utils_config:get_base_data_path:80 - BASE_DATA_DIR: C:\Users\balla\Projects\buzzline-05-jballard\data
+2025-02-16 12:44:15.791 | INFO     | utils.utils_config:get_sqlite_path:96 - SQLITE_PATH: C:\Users\balla\Projects\buzzline-05-jballard\data\buzz.sqlite
+2025-02-16 12:44:15.791 | INFO     | __main__:main:178 - SUCCESS: Read environment variables.
+2025-02-16 12:44:15.791 | INFO     | __main__:main:183 - STEP 2. Delete any prior database file for a fresh start.
+2025-02-16 12:44:15.791 | INFO     | __main__:main:187 - SUCCESS: Deleted database file.
+2025-02-16 12:44:15.791 | INFO     | __main__:main:192 - STEP 3. Initialize a new database with an empty table.
+2025-02-16 12:44:15.791 | INFO     | consumers.db_sqlite_case:init_db:48 - Calling SQLite init_db() with {db_path=}.
+2025-02-16 12:44:15.792 | INFO     | consumers.db_sqlite_case:init_db:55 - SUCCESS: Got a cursor to execute SQL.
+2025-02-16 12:44:15.804 | INFO     | consumers.db_sqlite_case:init_db:74 - SUCCESS: Database initialized and table ready at C:\Users\balla\Projects\buzzline-05-jballard\data\buzz.sqlite.
+2025-02-16 12:44:15.804 | INFO     | __main__:main:199 - STEP 4. Begin consuming and storing messages.
+2025-02-16 12:44:15.804 | INFO     | __main__:consume_messages_from_kafka:100 - Called consume_messages_from_kafka() with:
+2025-02-16 12:44:15.804 | INFO     | __main__:consume_messages_from_kafka:101 -    topic='buzzline'
+2025-02-16 12:44:15.805 | INFO     | __main__:consume_messages_from_kafka:102 -    kafka_url='127.0.0.1:9092'
+2025-02-16 12:44:15.805 | INFO     | __main__:consume_messages_from_kafka:103 -    group='buzz_group'
+2025-02-16 12:44:15.805 | INFO     | __main__:consume_messages_from_kafka:104 -    sql_path=WindowsPath('C:/Users/balla/Projects/buzzline-05-jballard/data/buzz.sqlite')
+2025-02-16 12:44:15.805 | INFO     | __main__:consume_messages_from_kafka:105 -    interval_secs=5
+2025-02-16 12:44:15.805 | INFO     | __main__:consume_messages_from_kafka:107 - Step 1. Verify Kafka Services.
+2025-02-16 12:44:15.805 | INFO     | utils.utils_config:get_zookeeper_address:44 - ZOOKEEPER_ADDRESS: 127.0.0.1:2181
+2025-02-16 12:44:16.691 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:50 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-02-16 12:44:16.691 | ERROR    | utils.utils_producer:verify_services:82 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-02-16 12:44:17.845 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:50 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-02-16 12:44:17.845 | ERROR    | utils.utils_producer:verify_services:82 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-02-16 12:44:17.845 | INFO     | __main__:main:209 - Consumer shutting down.
+2025-02-16 12:48:54.974 | INFO     | utils.utils_logger:<module>:43 - Logging to file: logs\project_log.log
+2025-02-16 12:48:54.975 | INFO     | __main__:main:125 - Starting Producer to run continuously.
+2025-02-16 12:48:54.975 | INFO     | __main__:main:126 - Things can fail or get interrupted, so use a try block.
+2025-02-16 12:48:54.975 | INFO     | __main__:main:127 - Moved .env variables into a utils config module.
+2025-02-16 12:48:54.975 | INFO     | __main__:main:129 - STEP 1. Read required environment variables.
+2025-02-16 12:48:54.975 | INFO     | utils.utils_config:get_message_interval_seconds_as_int:65 - MESSAGE_INTERVAL_SECONDS: 5
+2025-02-16 12:48:54.975 | INFO     | utils.utils_config:get_kafka_topic:58 - BUZZ_TOPIC: buzzline
+2025-02-16 12:48:54.975 | INFO     | utils.utils_config:get_kafka_broker_address:51 - KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-02-16 12:48:54.975 | INFO     | utils.utils_config:get_base_data_path:80 - BASE_DATA_DIR: C:\Users\balla\Projects\buzzline-05-jballard\data
+2025-02-16 12:48:54.975 | INFO     | utils.utils_config:get_live_data_path:89 - LIVE_DATA_PATH: C:\Users\balla\Projects\buzzline-05-jballard\data\project_live.json
+2025-02-16 12:48:54.975 | INFO     | __main__:main:140 - STEP 2. Delete the live data file if exists to start fresh.
+2025-02-16 12:48:54.976 | INFO     | __main__:main:147 - STEP 3. Build the path folders to the live data file if needed.
+2025-02-16 12:48:54.976 | INFO     | __main__:main:153 - STEP 4. Try to create a Kafka producer and topic.
+2025-02-16 12:48:54.976 | INFO     | utils.utils_config:get_zookeeper_address:44 - ZOOKEEPER_ADDRESS: 127.0.0.1:2181
+2025-02-16 12:48:57.042 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:50 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-02-16 12:48:57.042 | ERROR    | utils.utils_producer:verify_services:82 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
