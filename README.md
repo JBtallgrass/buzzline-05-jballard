@@ -130,10 +130,14 @@ The data in this project is **fictitious** with the use of  **Generative AI (Gen
 ---
 
 ## 🔄 Workflow
+
 Here’s the workflow for the project:
 **Data Generation**: The producer (rafting_producer.py) simulates real-time data, streaming messages to a Kafka topic or saving them to a live data file.
+
 **Real-Time Feedback Processing**: Consumers read messages from the Kafka topic or process, enrich the data (e.g., adding weather and river conditions), and store the processed results in the SQLite database for persistence and further analysis.
+
 **Data Storage**: SQLite serves as the data store for processed data, enabling historical reference, integration with BI tools, and deeper insights into rafting feedback.
+
 **Visualization**: jb_project_consumer.py updates real-time charts every 10 messages, visualizing positive vs. negative feedback, weather impact on feedback, and river flow correlations.
 ---
 

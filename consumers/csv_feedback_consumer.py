@@ -1,19 +1,37 @@
+"""
+csv_feedback_consumer.py
+
+Consumes structured feedback messages from Kafka (`rafting_csv_feedback`)
+and writes them into an SQLite database (`rafting_feedback` table).
+"""
+
+#####################################
+# Import Modules
+#####################################
+
 import os
 import json
-import csv
 from kafka import KafkaConsumer
 from dotenv import load_dotenv
+from pathlib import Path
 from utils.utils_logger import logger
+from db_sqlite_rafting import init_db, insert_feedback
+from utils.utils_config import get_sqlite_path
 
 #####################################
 # Load Environment Variables
 #####################################
 
 load_dotenv()
+KAFKA_BROKER = os.getenv("KAFKA_BROKER_ADDRESS", "172.30.179.152:9092")
+KAFKA_TOPIC = os.getenv("RAFTING_CSV_TOPIC", "rafting_csv_feedback")
+DB_PATH = Path(get_sqlite_path())
 
-KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
-KAFKA_TOPIC = "rafting_csv_feedback"
-CSV_FILE = "data/rafting_feedback.csv"
+#####################################
+# Initialize Database
+#####################################
+
+init_db(DB_PATH)
 
 #####################################
 # Create Kafka Consumer
@@ -28,55 +46,33 @@ consumer = KafkaConsumer(
 )
 
 #####################################
-# Function to Save Messages to CSV
+# Function to Process and Insert Feedback
 #####################################
 
-def save_to_csv(message):
+def process_and_insert_feedback(feedback):
     """
-    Append processed feedback messages to a CSV file.
+    Process a single feedback message and insert it into the SQLite database.
+
+    Args:
+        feedback (dict): The feedback message to process.
     """
-    file_exists = os.path.isfile(CSV_FILE)
-    
-    with open(CSV_FILE, mode="a", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-
-        # Write header if file does not exist
-        if not file_exists:
-            writer.writerow([
-                "timestamp", "date", "guide", "comment", "trip_type", "is_negative",
-                "weather", "temperature", "wind_speed", "rainfall",
-                "river_flow", "water_level", "water_temperature"
-            ])
-
-        # Write the new row
-        writer.writerow([
-            message["timestamp"],
-            message["date"],
-            message["guide"],
-            message["comment"],
-            message["trip_type"],
-            message["is_negative"],
-            message["weather"],
-            message["temperature"],
-            message["wind_speed"],
-            message["rainfall"],
-            message["river_flow"],
-            message["water_level"],
-            message["water_temperature"]
-        ])
-    
-    logger.info(f"✅ Saved message to CSV: {message}")
+    try:
+        logger.info(f"📥 Received feedback: {json.dumps(feedback, indent=2)}")
+        insert_feedback(feedback, DB_PATH)
+    except Exception as e:
+        logger.error(f"❌ Failed to process and insert feedback: {e}")
 
 #####################################
 # Main Function
 #####################################
 
 def main():
-    logger.info("🚀 START CSV consumer and writer.")
+    logger.info("🚀 START: Kafka Consumer for Rafting CSV Feedback")
     
     try:
         for message in consumer:
-            save_to_csv(message.value)
+            feedback = message.value
+            process_and_insert_feedback(feedback)
     except KeyboardInterrupt:
         logger.warning("⚠️ Consumer interrupted by user.")
     except Exception as e:
