@@ -17,6 +17,8 @@ import os
 import json
 import time
 import threading
+import sys
+import pathlib
 from collections import defaultdict
 from datetime import datetime
 from kafka import KafkaConsumer
@@ -25,13 +27,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import matplotlib
-import pathlib
 
 matplotlib.use("TkAgg")
 
 from utils.utils_logger import logger
-from db_sqlite_rafting import insert_feedback
 from utils.utils_config import get_sqlite_path
+
+# Ensure Python can find `db_sqlite_rafting.py` in `data/`
+sys.path.append(str(pathlib.Path(__file__).parent.parent))
+
+from data.db_sqlite_rafting import insert_feedback
 
 #####################################
 # Load Environment Variables
@@ -117,7 +122,7 @@ def process_message(message):
         if is_negative == "yes":
             negative_feedback_log.append(message)
 
-        # Store in SQLite database using `insert_feedback` from `db_sqlite_rafting.py`
+        # Store in SQLite database using `insert_feedback`
         feedback_data = {
             "date": trip_date,
             "guide": guide,
@@ -145,43 +150,6 @@ def process_message(message):
 # Real-Time Visualization
 #####################################
 
-def plot_guide_performance(df):
-    """Plot the performance of guides based on feedback."""
-    guide_performance = df.groupby("guide")["is_negative"].value_counts().unstack().fillna(0)
-    guide_performance.plot(kind="bar", stacked=True, color=["green", "red"])
-    plt.title("Guide Performance")
-    plt.xlabel("Guide")
-    plt.ylabel("Count")
-    plt.xticks(rotation=45)
-
-def plot_sentiment_distribution(df):
-    """Plot the distribution of sentiment in the feedback."""
-    sentiment_counts = df["is_negative"].value_counts()
-    sentiment_counts.plot(kind="bar", color=["green", "red"])
-    plt.title("Sentiment Distribution")
-    plt.xlabel("Sentiment")
-    plt.ylabel("Count")
-    plt.xticks(ticks=[0, 1], labels=["Positive", "Negative"], rotation=0)
-
-def plot_weekly_trend(df):
-    """Plot the weekly trend of feedback."""
-    weekly_counts = df.groupby("week")["is_negative"].value_counts().unstack().fillna(0)
-    weekly_counts.plot(kind="bar", stacked=True, color=["green", "red"])
-    plt.title("Weekly Feedback Trend")
-    plt.xlabel("Week")
-    plt.ylabel("Count")
-    plt.xticks(rotation=45)
-
-def plot_negative_feedback_trend(df):
-    """Plot the trend of negative feedback over time."""
-    negative_feedback = df[df["is_negative"] == "yes"]
-    negative_feedback["date"] = pd.to_datetime(negative_feedback["date"], errors="coerce")
-    negative_feedback.set_index("date", inplace=True)
-    negative_feedback.resample("W").size().plot(kind="line", color="red")
-    plt.title("Negative Feedback Trend")
-    plt.xlabel("Date")
-    plt.ylabel("Count")
-
 def update_chart(frame):
     global message_count
 
@@ -193,20 +161,23 @@ def update_chart(frame):
     df["week"] = df["date"].dt.isocalendar().week
 
     plt.clf()
-    plt.figure(figsize=(14, 10))
     plt.subplots_adjust(hspace=0.4, wspace=0.3)
 
     plt.subplot(2, 2, 1)
-    plot_sentiment_distribution(df)
+    df["is_negative"].value_counts().plot(kind="bar", color=["green", "red"])
+    plt.title("Sentiment Distribution")
 
     plt.subplot(2, 2, 2)
-    plot_weekly_trend(df)
+    df.groupby("week")["is_negative"].value_counts().unstack().plot(kind="bar", stacked=True)
+    plt.title("Weekly Feedback Trend")
 
     plt.subplot(2, 2, 3)
-    plot_guide_performance(df)
+    df.groupby("guide")["is_negative"].value_counts().unstack().plot(kind="bar", stacked=True)
+    plt.title("Guide Performance")
 
     plt.subplot(2, 2, 4)
-    plot_negative_feedback_trend(df)
+    df[df["is_negative"] == "yes"].groupby("date").size().plot(kind="line", color="red")
+    plt.title("Negative Feedback Trend")
 
     plt.tight_layout()
     plt.draw()
@@ -271,3 +242,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#####################################
+# ✅ Uses data.db_sqlite_rafting.py correctly
+# ✅ Ensures Matplotlib updates properly
+# ✅ Fixes is_negative conversion to "yes"/"no"
+# ✅ Runs Kafka in a separate thread
+#####################################
