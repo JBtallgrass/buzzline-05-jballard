@@ -1,0 +1,2502 @@
+[
+    {
+        "comment": "Ideal conditions for river fun.",
+        "character_count": 31,
+        "guide": "Jake",
+        "uuid": "1d71f397-11ba-46d2-bd7f-ab9ebe56bdb6",
+        "date": "2024-08-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides kept us entertained and engaged the whole time with interesting facts about the river and exciting rapid runs.",
+        "character_count": 121,
+        "guide": "Emily",
+        "uuid": "4cc8d424-f2cc-4bb4-a90e-93186a92d37b",
+        "date": "2024-06-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Even my kids had an amazing time and felt safe throughout the trip! The guides were great at engaging everyone, regardless of age.",
+        "character_count": 130,
+        "guide": "Liam",
+        "uuid": "721e4784-b5ff-40f4-b5ed-7bd749b872f8",
+        "date": "2024-06-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Clear weather showcased the river's natural beauty.",
+        "character_count": 51,
+        "guide": "Carlos",
+        "uuid": "71cb85ab-4739-4fd7-8634-8367f7066022",
+        "date": "2024-05-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The contrast between exciting rapids and peaceful floating sections gave us time to both get our adrenaline pumping and appreciate the natural beauty.",
+        "character_count": 150,
+        "guide": "Grace",
+        "uuid": "57b4c489-5990-4042-b1ee-e680e179ae97",
+        "date": "2024-06-17",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The company's commitment to supporting local conservation efforts was evident in both their actions and education.",
+        "character_count": 114,
+        "guide": "Emma",
+        "uuid": "f00ebaee-ecc4-492f-9782-dc0045dda645",
+        "date": "2024-08-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Great bonding experience for our group that really brought everyone together through teamwork and shared excitement on the river.",
+        "character_count": 129,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "30e82718-47b0-4dee-8174-a69926c35998",
+        "date": "2024-07-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Clear skies allowed us to fully appreciate the canyon's beauty.",
+        "character_count": 63,
+        "guide": "Tyler",
+        "uuid": "09505c42-f3cf-47b0-a288-ddd5e38d8a6d",
+        "date": "2024-07-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A light morning drizzle created a mystical atmosphere on the river, followed by perfect sunny conditions for the afternoon rapids.",
+        "character_count": 130,
+        "guide": "John (Senior Guide)",
+        "uuid": "71212524-9b8f-4fc0-a3f2-a62a9cb6d38a",
+        "date": "2024-08-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Would highly recommend this for thrill-seekers and adventure enthusiasts who want to experience nature in an exciting and unique way.",
+        "character_count": 133,
+        "guide": "Liam",
+        "uuid": "a1031029-a0fa-425e-857b-6c676eca2b77",
+        "date": "2024-08-05",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The moderate water levels allowed us to really appreciate the skill involved in navigating different types of rapids.",
+        "character_count": 117,
+        "guide": "Emily",
+        "uuid": "0e170540-4292-4521-a735-57f4899302b6",
+        "date": "2024-05-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Watching the sunrise over the river before our morning launch was absolutely magical, setting the perfect tone for an incredible day of adventure.",
+        "character_count": 146,
+        "guide": "James (Senior Guide)",
+        "uuid": "7e3906c9-3630-4dd0-9ad6-93fb4de71c6b",
+        "date": "2024-08-20",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect temperature both in and out of the water made for an incredibly comfortable adventure.",
+        "character_count": 94,
+        "guide": "Olivia",
+        "uuid": "e7e0d2f6-4e83-4fa3-bf95-933d8a65670d",
+        "date": "2024-06-17",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The sunny weather made the crystal-clear water sparkle, revealing beautiful underwater features throughout our journey.",
+        "character_count": 119,
+        "guide": "Daniel",
+        "uuid": "8d5f9151-b3f5-409d-aa52-4b5030b17bbb",
+        "date": "2024-07-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides coordinated perfectly with each other to ensure all rafts navigated the technical sections safely and efficiently.",
+        "character_count": 125,
+        "guide": "Samantha",
+        "uuid": "e050817f-9e88-49e4-9213-b0c57fba81e7",
+        "date": "2024-06-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal flows were just right.",
+        "character_count": 35,
+        "guide": "Chloe",
+        "uuid": "6f1501fd-df61-47ea-94ce-daaf54f6f7c8",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The moderate water levels exposed interesting features that our guide used for navigation lessons.",
+        "character_count": 98,
+        "guide": "Chloe",
+        "uuid": "08d101ff-0dc7-49ab-99a0-b823d912520f",
+        "date": "2024-07-05",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The late summer water level was ideal for spotting river features, and our guide expertly explained how different seasons affect the rapids.",
+        "character_count": 140,
+        "guide": "Liam",
+        "uuid": "82b1282f-fe76-457d-8317-8e2d6c2b641f",
+        "date": "2024-07-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The riverside lunch spot offered spectacular views that made the break feel like a luxury dining experience in nature.",
+        "character_count": 118,
+        "guide": "Grace",
+        "uuid": "f09aca3a-218a-4140-9897-503000300820",
+        "date": "2024-07-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The mix of participants from different backgrounds created an interesting dynamic that enhanced the shared experience.",
+        "character_count": 118,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "0d72a88b-b1de-4340-b05c-3eef6c007239",
+        "date": "2024-08-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Great for corporate team-building activities, combining excitement with opportunities for collaboration and trust-building on the water.",
+        "character_count": 136,
+        "guide": "Olivia",
+        "uuid": "a7ff0010-a1f2-4652-bd8e-d85c3e45e315",
+        "date": "2024-06-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Ideal conditions for practicing advanced rafting skills.",
+        "character_count": 56,
+        "guide": "Liam",
+        "uuid": "707b44e7-0c07-46a4-9397-b4693f900822",
+        "date": "2024-07-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Even the basic paddling instruction was delivered in an engaging way that made learning the techniques fun and memorable.",
+        "character_count": 121,
+        "guide": "Emma",
+        "uuid": "018ea519-6256-4c5e-a2de-3d389aceface",
+        "date": "2024-05-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent patterns created perfect rafting conditions.",
+        "character_count": 51,
+        "guide": "Emma",
+        "uuid": "1b6bd518-9d30-48f2-a1cb-114d528b6b4b",
+        "date": "2024-06-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Each bend in the river revealed new spectacular views, making the whole journey feel like an expedition of discovery.",
+        "character_count": 117,
+        "guide": "Mason",
+        "uuid": "95e91e66-bb22-4a50-b910-ffd846d938f6",
+        "date": "2024-08-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Early summer conditions meant warmer water temperatures, making our splash-filled journey through the rapids even more enjoyable.",
+        "character_count": 129,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "04205e1c-ab62-4c6e-bdad-cfa5631f4c3f",
+        "date": "2024-06-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the breathtaking scenery along the river banks, the river was beautiful and every turn revealed something new to admire.",
+        "character_count": 126,
+        "guide": "Jake",
+        "uuid": "80d8db1c-cee8-4514-a9dd-a1b1877e2765",
+        "date": "2024-06-10",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Watching the morning mist rise off the river as we started our journey created an almost mystical atmosphere.",
+        "character_count": 109,
+        "guide": "Sophia",
+        "uuid": "6b1e8072-971e-42c6-9b42-8031f4bb6236",
+        "date": "2024-05-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect weather for spotting wildlife, with water levels that created excellent viewing opportunities along the banks.",
+        "character_count": 118,
+        "guide": "Emma",
+        "uuid": "b5652021-38f8-4eb1-a827-51fd9f00ce32",
+        "date": "2024-07-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect shoulder season conditions with moderate water levels and comfortable temperatures for our full-day adventure.",
+        "character_count": 118,
+        "guide": "Grace",
+        "uuid": "3d94633c-6eee-4490-86dc-27ce52478926",
+        "date": "2024-07-14",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal conditions created ideal opportunities for learning about river dynamics and flow patterns.",
+        "character_count": 104,
+        "guide": "John (Senior Guide)",
+        "uuid": "1cd78004-261c-4136-8293-1e8d185f7700",
+        "date": "2024-05-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A great way to escape the city and enjoy nature while getting an exciting workout and making memories with friends on the river.",
+        "character_count": 128,
+        "guide": "Emma",
+        "uuid": "62954939-20b7-43fb-9ed7-e447eebb7d65",
+        "date": "2024-06-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect weather conditions with a mix of sun and light clouds kept us comfortable throughout the trip, while the water temperature was refreshingly cool.",
+        "character_count": 153,
+        "guide": "Liam",
+        "uuid": "37201a1f-75f9-4922-a6b2-d59d38d2aa35",
+        "date": "2024-07-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Each rapid felt like a new puzzle to solve as we worked together to navigate the optimal line through the waves.",
+        "character_count": 112,
+        "guide": "Daniel",
+        "uuid": "24e605ba-a6a7-491f-9c73-2e20cfa5c63b",
+        "date": "2024-06-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense and exactly what we were looking for! Such an incredible adrenaline rush that kept us excited the whole way down.",
+        "character_count": 137,
+        "guide": "Liam",
+        "uuid": "d0b89287-03a0-421e-ab5a-4a699f1e8583",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's weather monitoring and route adjustments ensured we had the best possible experience despite changing conditions.",
+        "character_count": 125,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "bdc7956c-a1a4-4052-9a91-f03f1a1ad5c5",
+        "date": "2024-06-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The equipment was top-notch and well-maintained, which really gave us confidence during the more challenging parts of the river journey.",
+        "character_count": 136,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "e6e24225-85ab-42e9-af2f-690c01ab8666",
+        "date": "2024-08-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The recent precipitation created optimal water levels for exploring some rarely-accessible side channels.",
+        "character_count": 105,
+        "guide": "Chloe",
+        "uuid": "26c04e54-f5ec-457a-8d85-bfb76f126acb",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Clear skies and steady water levels made for ideal photo opportunities throughout the trip.",
+        "character_count": 91,
+        "guide": "Ava",
+        "uuid": "94ec3791-8e79-4439-95ed-cf84582b029e",
+        "date": "2024-08-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal waterfalls were spectacular due to recent rains, adding extra scenic elements to an already beautiful trip.",
+        "character_count": 120,
+        "guide": "James (Senior Guide)",
+        "uuid": "2e54cbe3-86a3-4825-a788-8edcaea9cf12",
+        "date": "2024-07-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring water levels created amazing wave trains that were incredibly fun without being too intimidating.",
+        "character_count": 108,
+        "guide": "Tyler",
+        "uuid": "ceb1d2b7-6fc0-4c39-aed0-46a2b6e35c4f",
+        "date": "2024-05-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides were professional, safety-conscious, and super fun throughout the entire experience! They really made the trip special.",
+        "character_count": 130,
+        "guide": "Samantha",
+        "uuid": "2b2f0cf2-4eeb-4805-9bcf-a98443629336",
+        "date": "2024-07-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides really knew their stuff about river safety and techniques, and made us feel comfortable even during the most challenging rapids.",
+        "character_count": 139,
+        "guide": "Chloe",
+        "uuid": "eee7167f-103d-45ea-9bc7-0b4d1577cd4f",
+        "date": "2024-07-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The sunny conditions highlighted the amazing water clarity, allowing us to spot fish during calmer stretches.",
+        "character_count": 109,
+        "guide": "Sophia",
+        "uuid": "e8aca5c5-8c66-469b-9740-514d6fa2a32b",
+        "date": "2024-08-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Water levels were optimal for seeing interesting rock formations, and our guide pointed out how the river changes throughout the seasons.",
+        "character_count": 137,
+        "guide": "Olivia",
+        "uuid": "89ffcdfb-c5dc-41c3-b49b-401ff3ff710c",
+        "date": "2024-05-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure that exceeded all my expectations, I highly recommend it to anyone looking for outdoor excitement.",
+        "character_count": 124,
+        "guide": "Olivia",
+        "uuid": "383c663e-5be8-499b-93ac-76d5a6001968",
+        "date": "2024-06-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The post-rafting barbecue was an unexpected highlight, with delicious food and great conversation about our shared adventure on the river.",
+        "character_count": 138,
+        "guide": "John (Senior Guide)",
+        "uuid": "61866efc-6b48-4021-9674-2f6f59974f05",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The company's attention to environmental conservation was impressive, with guides teaching us about river ecology and responsible rafting practices.",
+        "character_count": 148,
+        "guide": "Sophia",
+        "uuid": "e03b118c-8676-46a6-af63-da4162ff8d9b",
+        "date": "2024-08-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The temperature was comfortable both in and out of splash zones.",
+        "character_count": 64,
+        "guide": "Grace",
+        "uuid": "1899da02-5315-4802-8777-c3560dd431f2",
+        "date": "2024-06-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The mild temperature and gentle breeze made for ideal rafting conditions, while the water level kept things exciting.",
+        "character_count": 117,
+        "guide": "Emily",
+        "uuid": "cc07c8e5-a547-49ae-891e-17b217a1dd7a",
+        "date": "2024-08-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The cliff jumping opportunity during our lunch break added an extra element of adventure to an already exciting day.",
+        "character_count": 116,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "9be4da42-a677-4d15-a3dd-af5aec55a34b",
+        "date": "2024-07-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "One of the best outdoor adventures I've ever had, combining natural beauty with excitement in ways I never expected! Truly memorable.",
+        "character_count": 133,
+        "guide": "Ava",
+        "uuid": "65698e81-0821-4330-91cd-86c07333c844",
+        "date": "2024-08-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The water level was perfect for practicing different paddling strategies.",
+        "character_count": 73,
+        "guide": "Mason",
+        "uuid": "2719ea61-388a-49b7-b452-79e390625ae0",
+        "date": "2024-07-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids provided just enough splash to keep us cool in the summer heat without being overwhelming.",
+        "character_count": 101,
+        "guide": "Emma",
+        "uuid": "bf206434-be86-4585-a16b-04186b6dd3a8",
+        "date": "2024-06-17",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring runoff enhanced the rapids while keeping them manageable for everyone.",
+        "character_count": 81,
+        "guide": "Mason",
+        "uuid": "f6f56682-a87b-4e16-b6d5-4466ba517ca3",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent rainfall enhanced the waterfalls along our route without making the rapids too challenging for our mixed-ability group.",
+        "character_count": 126,
+        "guide": "Mason",
+        "uuid": "eba07a7a-de94-4cde-bb81-ef4982a98f6e",
+        "date": "2024-06-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A must-do experience for nature lovers who want to combine outdoor beauty with adventure and excitement on the water!",
+        "character_count": 117,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "d7fbbc28-1e34-4314-917b-6f1a5a6857af",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Mild temperatures and consistent water flows created ideal conditions for our group.",
+        "character_count": 84,
+        "guide": "Olivia",
+        "uuid": "5738fb07-6d57-464b-bffa-78bffca5168d",
+        "date": "2024-06-14",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The moderate water levels made for an ideal learning environment, allowing us to practice our paddling techniques in various conditions.",
+        "character_count": 136,
+        "guide": "Liam",
+        "uuid": "1061d480-92bc-460c-a2b2-08374c3866c8",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Even the calmer sections of the river were fun and engaging, with beautiful scenery and interesting stories from our guide about the area.",
+        "character_count": 138,
+        "guide": "Olivia",
+        "uuid": "70c707fe-8054-4943-a0fa-f1b68df1421e",
+        "date": "2024-06-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect visibility for spotting upcoming rapids and planning our route.",
+        "character_count": 71,
+        "guide": "Liam",
+        "uuid": "308000f9-8a50-4744-b925-27703c5a0a2a",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience that got my adrenaline pumping! Would definitely do it again and bring all my friends next time.",
+        "character_count": 131,
+        "guide": "Samantha",
+        "uuid": "fc5e93a0-de05-425e-8bc4-26a0fff36a29",
+        "date": "2024-07-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The cool morning air and warm afternoon sun created perfect conditions for our full-day rafting adventure.",
+        "character_count": 106,
+        "guide": "Tyler",
+        "uuid": "5efb1547-b3e2-4ea8-9426-03a2bb510d7b",
+        "date": "2024-06-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring runoff made for perfect water levels today, creating exciting rapids while still feeling safe and manageable for our mixed-skill group.",
+        "character_count": 146,
+        "guide": "Daniel",
+        "uuid": "5088cfde-0cde-49d0-abe9-2ad9b3786464",
+        "date": "2024-07-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The camaraderie that developed between different rafting groups at the lunch spot added an extra layer of fun to our adventure.",
+        "character_count": 127,
+        "guide": "Jake",
+        "uuid": "0c206545-2349-4871-9347-04e5f57bf49e",
+        "date": "2024-08-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's extensive knowledge of river navigation made us feel completely confident, even during the most challenging sections of the journey.",
+        "character_count": 144,
+        "guide": "Noah",
+        "uuid": "b0958201-9dc3-454e-b5d7-44ef58c819ec",
+        "date": "2024-07-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring runoff added extra excitement to the rapids while our guide expertly explained seasonal water patterns.",
+        "character_count": 114,
+        "guide": "Tyler",
+        "uuid": "3a070766-dfb5-4efe-8d2b-9c31dedfdcc9",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Higher spring flows made the rapids extra exciting, but our guide's expert navigation kept everyone comfortable and confident.",
+        "character_count": 126,
+        "guide": "John (Senior Guide)",
+        "uuid": "5f53f64e-7a5a-40ff-a09b-13f592f35660",
+        "date": "2024-07-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect weather for rafting adventures.",
+        "character_count": 39,
+        "guide": "Emily",
+        "uuid": "d5629e45-554b-4b09-b327-2a494d38b7c5",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The pre-trip instructions and safety briefing were thorough and helpful, making everyone feel prepared and confident for the adventure ahead.",
+        "character_count": 141,
+        "guide": "Liam",
+        "uuid": "29d16381-20ad-440e-93be-8dddb2e83455",
+        "date": "2024-07-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Ideal visibility allowed us to spot upcoming rapids and learn about different river features.",
+        "character_count": 93,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "55b5fd75-fb77-4c78-8982-31d9279851bc",
+        "date": "2024-07-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Saw an eagle soaring majestically above us during a calm stretch\u2014what an incredible moment that made the trip even more special!",
+        "character_count": 128,
+        "guide": "Sophia",
+        "uuid": "3f6eda85-3f72-4826-8436-c53461b70c06",
+        "date": "2024-06-16",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring conditions added excitement while maintaining safety.",
+        "character_count": 64,
+        "guide": "Emily",
+        "uuid": "7b846575-36ef-4fea-b60f-558e27654486",
+        "date": "2024-07-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable about the river's history and ecosystem, learned a lot about the local wildlife and geography throughout the journey.",
+        "character_count": 148,
+        "guide": "Mason",
+        "uuid": "df26a044-a221-4ded-b3ad-a87c79ee7ced",
+        "date": "2024-08-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "We saw so much amazing wildlife along the river, including eagles and deer - it was absolutely incredible and made the trip even more special!",
+        "character_count": 142,
+        "guide": "Grace",
+        "uuid": "4b186702-2abb-4e32-a48c-f576dd3f632d",
+        "date": "2024-08-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide shared fascinating stories about local history and geology throughout the trip, making it both educational and entertaining.",
+        "character_count": 134,
+        "guide": "Mason",
+        "uuid": "174529cd-f5e9-4895-9192-e2399bc2faca",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "I can't stop talking about this incredible trip with my friends! Every aspect was amazing, from the guides to the rapids.",
+        "character_count": 121,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "4df6cc47-2a4e-4494-9610-f6f949bb0c4a",
+        "date": "2024-06-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "So much positive energy and enthusiasm from the guides throughout the entire trip, making everyone feel excited and confident on the water.",
+        "character_count": 139,
+        "guide": "Sophia",
+        "uuid": "ca92556c-963e-4115-bbf5-2b93a72ad72a",
+        "date": "2024-08-19",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Learning about the river's seasonal changes and water patterns gave us a newfound respect for nature's power.",
+        "character_count": 109,
+        "guide": "Olivia",
+        "uuid": "c2bf0f5f-5ab3-4b4e-88dd-aa1adca1528e",
+        "date": "2024-06-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal water flows made each rapid unique and interesting.",
+        "character_count": 64,
+        "guide": "Emma",
+        "uuid": "05f75f02-b109-490c-8184-8c07c85fe18c",
+        "date": "2024-08-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The current water levels made each rapid entertaining.",
+        "character_count": 54,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "2411d3b8-b56b-4a73-9ba2-66d1814da8e8",
+        "date": "2024-06-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal conditions were perfect for appreciating the river's natural dynamics.",
+        "character_count": 83,
+        "guide": "Noah",
+        "uuid": "5f9ee621-9a38-49c1-98d8-294fc0f13525",
+        "date": "2024-08-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The company's safety protocols were evident throughout the trip, but implemented in a way that never diminished the fun.",
+        "character_count": 120,
+        "guide": "Carlos",
+        "uuid": "45bbf087-08bd-41ef-9648-691d239b7e6c",
+        "date": "2024-08-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Learning about river reading techniques from our expert guide added an intellectual dimension to the physical adventure.",
+        "character_count": 120,
+        "guide": "Ava",
+        "uuid": "e73e11d7-e42c-467c-a0e1-0d509bbd4e27",
+        "date": "2024-08-08",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The water level was perfect for practicing different paddling techniques in various rapid types.",
+        "character_count": 96,
+        "guide": "Samantha",
+        "uuid": "8f6617b1-e323-4f5f-92db-0e952d0a8944",
+        "date": "2024-07-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the incredible rush of navigating the rapids with our team, experiencing both the excitement and satisfaction of conquering each challenge.",
+        "character_count": 145,
+        "guide": "Tyler",
+        "uuid": "1bb9d734-2fb5-4932-83da-18bb2a22bc40",
+        "date": "2024-06-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather enhanced every aspect of our river adventure.",
+        "character_count": 57,
+        "guide": "Ava",
+        "uuid": "1d314847-335b-4ae0-a191-24b39022e58f",
+        "date": "2024-08-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The teamwork required to navigate the rapids really brought our family closer together, creating memories we'll cherish for years to come.",
+        "character_count": 138,
+        "guide": "Noah",
+        "uuid": "df7c6f62-3666-4204-b429-76582f9ecd03",
+        "date": "2024-06-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal water temperature was perfect for occasional swimming breaks between rapids.",
+        "character_count": 89,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "ac666227-c93e-40b7-bd8c-54cdf9bda6ee",
+        "date": "2024-05-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The water clarity was exceptional due to recent weather patterns, making the whole experience even more spectacular.",
+        "character_count": 116,
+        "guide": "James (Senior Guide)",
+        "uuid": "c10e8cb1-8863-44a5-aa0d-250155ade6d1",
+        "date": "2024-08-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather and water levels combined to create an ideal learning environment.",
+        "character_count": 78,
+        "guide": "Noah",
+        "uuid": "a887e5c9-7b6d-489e-8d5a-c7725cbc9099",
+        "date": "2024-08-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "An unforgettable experience that created lasting memories for our whole group, can't wait to book again and try different river sections!",
+        "character_count": 137,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "088ba17e-61ab-49d7-9c5d-dccab60283f2",
+        "date": "2024-07-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of adventure and relaxation throughout the day, with exciting rapids balanced by peaceful moments to enjoy the scenery.",
+        "character_count": 131,
+        "guide": "Mason",
+        "uuid": "bf7431c1-e7d5-4faf-9a7d-465083f456af",
+        "date": "2024-08-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Watching osprey dive for fish during our lunch break was a magical moment that perfectly complemented the rafting excitement.",
+        "character_count": 125,
+        "guide": "Tyler",
+        "uuid": "0866335e-14dd-420e-918c-dd41d3c2dea7",
+        "date": "2024-05-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The way our guide helped less confident members of the group overcome their fears was truly impressive and heartwarming.",
+        "character_count": 120,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "c3736928-f4a5-4a0c-bf12-3279cb774f04",
+        "date": "2024-08-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal flow rates created perfect conditions for learning about river dynamics and rafting techniques.",
+        "character_count": 108,
+        "guide": "Emily",
+        "uuid": "13ff2f00-6872-49d4-bebc-ee2d12b8da70",
+        "date": "2024-08-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent weather patterns created optimal conditions for exploring the river's various channels.",
+        "character_count": 94,
+        "guide": "James (Senior Guide)",
+        "uuid": "2d8badf0-d233-4277-8690-9c0da212ef73",
+        "date": "2024-08-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Spotting river otters playing near the shoreline during a calm stretch was an unexpected highlight of our trip.",
+        "character_count": 111,
+        "guide": "Noah",
+        "uuid": "0ac4b176-062b-4abc-ba4a-75694df3055e",
+        "date": "2024-08-05",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Great experience for both beginners and experienced rafters, with excellent instruction and support from the guides throughout the journey.",
+        "character_count": 139,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "59ce974d-794f-4f81-a510-24bd9df4d295",
+        "date": "2024-07-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Stable water levels meant we could explore some interesting side channels that aren't always accessible, adding variety to our trip.",
+        "character_count": 132,
+        "guide": "Emma",
+        "uuid": "d085b98c-b7b9-4756-aa71-c505815867d8",
+        "date": "2024-09-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal water flows made for some really fun wave trains that everyone in our group enjoyed.",
+        "character_count": 97,
+        "guide": "Olivia",
+        "uuid": "f20e044b-ce0f-49b9-8be7-37ac3f09ce74",
+        "date": "2024-05-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Water levels were ideal for spotting wildlife along the shoreline, and our guide knew all the best viewing spots.",
+        "character_count": 113,
+        "guide": "Samantha",
+        "uuid": "c46cecc5-82f1-4e87-bab9-3c7cd32aa98d",
+        "date": "2024-09-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide's extensive knowledge of local flora and fauna turned our trip into a fascinating floating nature documentary.",
+        "character_count": 120,
+        "guide": "Carlos",
+        "uuid": "c6eba5cc-9b84-4b58-9267-b45749f878bf",
+        "date": "2024-07-10",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The river level was perfect for practicing different paddling techniques, with our guide explaining how conditions affect strategy.",
+        "character_count": 131,
+        "guide": "Emma",
+        "uuid": "67b57941-dec6-4ea3-8d8f-421d47741a7a",
+        "date": "2024-05-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "We felt like experienced rafters thanks to the expert guidance and instruction, learning new skills while having an amazing adventure.",
+        "character_count": 134,
+        "guide": "Noah",
+        "uuid": "f46798ec-5b15-495c-a0db-d90f3d3100a9",
+        "date": "2024-08-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather made every moment enjoyable.",
+        "character_count": 40,
+        "guide": "Sophia",
+        "uuid": "47dd92fa-3b27-4067-a796-456dde3e30de",
+        "date": "2024-07-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The sound of rushing water and birds calling created a perfect natural soundtrack for our wilderness adventure.",
+        "character_count": 111,
+        "guide": "Samantha",
+        "uuid": "74bce935-f939-4570-85c2-d665ca565d9f",
+        "date": "2024-05-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the team spirit our guide encouraged throughout the trip, making everyone feel like an important part of the rafting crew.",
+        "character_count": 128,
+        "guide": "Noah",
+        "uuid": "0f20358c-91d0-4395-89d0-9f9fa3abce75",
+        "date": "2024-07-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal flows created consistent and enjoyable rapids.",
+        "character_count": 59,
+        "guide": "James (Senior Guide)",
+        "uuid": "e70e5b22-7917-403c-a2f4-aaa44a110d02",
+        "date": "2024-06-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Water clarity made it easy to spot underwater features.",
+        "character_count": 55,
+        "guide": "Daniel",
+        "uuid": "aa5a5de6-a625-46ad-bbcf-fc922c005bb8",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The late season water levels created more technical rapids, making the navigation extra interesting and engaging for our group.",
+        "character_count": 127,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "46b026eb-10ce-4d6e-ba3b-ad00cf2e2660",
+        "date": "2024-09-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Everything was meticulously well-planned and executed smoothly from start to finish, making the whole experience worry-free and enjoyable.",
+        "character_count": 138,
+        "guide": "Carlos",
+        "uuid": "f3e4decd-330d-4d3a-ad00-888c6917d937",
+        "date": "2024-08-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides' teamwork in handling unexpected situations showed their professionalism and extensive experience.",
+        "character_count": 109,
+        "guide": "Emily",
+        "uuid": "995a2d61-7df3-41b7-8549-b0d319e601bb",
+        "date": "2024-07-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's ability to read the river and anticipate changes made for an incredibly smooth and enjoyable rafting experience.",
+        "character_count": 124,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "a4d9bda3-d096-49a4-8508-fb73c272f4aa",
+        "date": "2024-06-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Watching the interplay of sunlight and water spray during the rapids created beautiful rainbow effects throughout our journey.",
+        "character_count": 126,
+        "guide": "Emily",
+        "uuid": "8f8a1137-0378-4295-85e7-96cc8362557e",
+        "date": "2024-08-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent weather created ideal conditions for river photography.",
+        "character_count": 62,
+        "guide": "Sophia",
+        "uuid": "315855c3-63f3-4420-84c1-68cf1bcc84fc",
+        "date": "2024-08-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The current water levels created excellent conditions for practicing more advanced rafting skills.",
+        "character_count": 98,
+        "guide": "Mason",
+        "uuid": "b3f23476-f627-4c5e-9d95-c53b8f2bc9f7",
+        "date": "2024-07-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's knowledge of the best spots for photos ensured we captured amazing memories throughout the trip.",
+        "character_count": 108,
+        "guide": "Emma",
+        "uuid": "19a809e3-cdc3-48de-ba7b-cbfda4bde7f7",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The satisfaction of successfully navigating difficult rapids as a team was incredibly rewarding and confidence-building.",
+        "character_count": 120,
+        "guide": "John (Senior Guide)",
+        "uuid": "05f97bf5-997b-4c1e-b06e-ca0039da2c13",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect temperature for combining rapids and swim breaks.",
+        "character_count": 57,
+        "guide": "James (Senior Guide)",
+        "uuid": "b4417d8b-2530-4773-ae88-b9058d8e6af8",
+        "date": "2024-06-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather was perfectly mild, and the water level created excellent waves that were both exciting and manageable.",
+        "character_count": 115,
+        "guide": "James (Senior Guide)",
+        "uuid": "80fb81a6-bcb9-4a29-84c1-9b9ee194b28a",
+        "date": "2024-07-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's ability to gauge the group's comfort level and adjust accordingly made everyone feel included and capable.",
+        "character_count": 118,
+        "guide": "Tyler",
+        "uuid": "282fa55a-5974-4276-a634-89ef6f637bd1",
+        "date": "2024-08-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The afternoon breeze kept us cool while the warm water made swimming breaks especially enjoyable during our full-day adventure.",
+        "character_count": 127,
+        "guide": "Emily",
+        "uuid": "cacb684d-9749-437d-80ff-ef10d31bfaa0",
+        "date": "2024-06-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect weather for a full day on the river, with water levels creating consistent entertainment.",
+        "character_count": 97,
+        "guide": "Olivia",
+        "uuid": "309ff72b-4abb-44ee-99b2-48bf372b3e5f",
+        "date": "2024-07-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Every rapid had its own unique character and challenge, making the entire journey feel like an exciting series of accomplishments.",
+        "character_count": 130,
+        "guide": "Noah",
+        "uuid": "dc57039e-6c36-4f20-a814-09b00dade58e",
+        "date": "2024-06-10",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our teenage kids actually put down their phones and engaged with the experience, which is practically a miracle these days!",
+        "character_count": 123,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "33fd607c-1cc8-4496-972e-2cd84483d2e7",
+        "date": "2024-08-22",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The lunch provided was delicious and fresh, with plenty of options for everyone, and the riverside picnic setting was absolutely perfect.",
+        "character_count": 137,
+        "guide": "Sophia",
+        "uuid": "5bea6148-3341-4ba4-8856-5f7d2d89f7ed",
+        "date": "2024-06-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The company's professional photography service captured perfect moments we were too busy enjoying to photograph ourselves.",
+        "character_count": 122,
+        "guide": "Carlos",
+        "uuid": "40088e60-5854-4030-a955-b71d6662532b",
+        "date": "2024-08-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent weather patterns created optimal conditions for exploring some of the river's more unique features.",
+        "character_count": 106,
+        "guide": "James (Senior Guide)",
+        "uuid": "d6453277-ba4b-4582-8dfc-adf3a2308a68",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The early morning fog lifting off the river created stunning photo opportunities, and the water temperature was perfect for occasional splashing.",
+        "character_count": 145,
+        "guide": "Daniel",
+        "uuid": "82db5e8c-8472-49cc-a190-97a9e2b46e56",
+        "date": "2024-07-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides' passion for river conservation was inspiring and added an important educational element to our adventure.",
+        "character_count": 117,
+        "guide": "Samantha",
+        "uuid": "040203bd-3204-4408-a6e9-85d9dbb221df",
+        "date": "2024-07-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The way different skill levels were accommodated within our group showed the guides' expertise in managing diverse participants.",
+        "character_count": 128,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "a5f1b7bb-af26-4ba6-997c-184a30e13e09",
+        "date": "2024-05-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Such a peaceful yet exhilarating adventure that combined the best of nature's beauty with exciting rapid runs and calm scenic stretches.",
+        "character_count": 136,
+        "guide": "Olivia",
+        "uuid": "ca156f42-f3dd-49a1-98a6-5656bc2c0a25",
+        "date": "2024-08-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal conditions were ideal for our group.",
+        "character_count": 49,
+        "guide": "Tyler",
+        "uuid": "4b49577a-ae3d-42c0-adaf-38e2eebb23b3",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The seasonal water temperature was refreshingly cool, making the sunny weather and occasional splashes perfectly balanced.",
+        "character_count": 122,
+        "guide": "Emily",
+        "uuid": "20e8aa8b-bcf1-4519-8235-75a654a5225c",
+        "date": "2024-07-17",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Late summer water levels exposed interesting rock formations that our guide used to explain the river's geological history.",
+        "character_count": 123,
+        "guide": "Noah",
+        "uuid": "a702a27f-a409-4d89-9660-389ed61e7d4e",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked from head to toe during the big rapids, but it was totally worth it for the incredible experience we had!",
+        "character_count": 130,
+        "guide": "Emily",
+        "uuid": "964ee6a5-1b27-4d9b-956c-eca9a106273a",
+        "date": "2024-08-19",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The whole trip was a perfect balance of fun and excitement, with great moments of teamwork and individual challenges throughout the day.",
+        "character_count": 136,
+        "guide": "Olivia",
+        "uuid": "62b290d8-3c95-40d7-a696-026189df86a3",
+        "date": "2024-06-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A perfect mix of sunshine and scattered clouds provided ideal conditions for both photography and comfortable paddling.",
+        "character_count": 119,
+        "guide": "Chloe",
+        "uuid": "faf99077-2535-4a79-8421-03eda0881ca2",
+        "date": "2024-08-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The whole experience exceeded my expectations in every way, from the professional staff to the breathtaking scenery along the river.",
+        "character_count": 132,
+        "guide": "Emily",
+        "uuid": "0bdae87d-4b66-4f92-a80e-ee574c1de5b5",
+        "date": "2024-07-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic throughout the entire journey, made us feel safe and confident the entire time, and really knew how to handle every situation.",
+        "character_count": 150,
+        "guide": "Samantha",
+        "uuid": "f1da2dde-de4b-442b-8c81-054495101e8d",
+        "date": "2024-05-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's infectious enthusiasm for rafting made even the safety briefing entertaining and engaging.",
+        "character_count": 102,
+        "guide": "Tyler",
+        "uuid": "070cbad7-b04c-4ad6-8dae-d768c1d9587a",
+        "date": "2024-06-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "A bucket-list experience finally checked off, and it was even better than I imagined with perfect weather and outstanding guide service!",
+        "character_count": 136,
+        "guide": "Olivia",
+        "uuid": "dad6bd52-b4cf-43ba-96bd-bd1754e77417",
+        "date": "2024-06-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Water clarity was exceptional due to recent weather, making the whole experience more engaging.",
+        "character_count": 95,
+        "guide": "Olivia",
+        "uuid": "8e13e0c5-721c-40d8-8745-620490caa5ca",
+        "date": "2024-08-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The trip was perfectly well-paced and enjoyable for all skill levels, with great instruction that made everyone feel confident on the water.",
+        "character_count": 140,
+        "guide": "Jake",
+        "uuid": "1a500408-debb-460a-ac4c-be017d3ec6ca",
+        "date": "2024-08-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "From the initial safety briefing to the final group photo, every aspect of the experience was professionally managed and thoroughly enjoyable.",
+        "character_count": 142,
+        "guide": "Ava",
+        "uuid": "31b5eb8c-5d4c-4d6c-a7c8-b54da2e7bd88",
+        "date": "2024-08-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Mild temperatures and steady water levels made for ideal conditions to learn and practice more advanced rafting techniques.",
+        "character_count": 123,
+        "guide": "Tyler",
+        "uuid": "49ecd3df-59a2-47e4-bc00-647753986631",
+        "date": "2024-06-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect rafting weather with a light breeze and water levels that created exciting but manageable rapids.",
+        "character_count": 105,
+        "guide": "Mason",
+        "uuid": "231c7e03-8b1d-4407-823c-48abd0d317e0",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The autumn colors along the riverbank were stunning, and the moderate water levels created perfect conditions for photography.",
+        "character_count": 126,
+        "guide": "Noah",
+        "uuid": "86c994c4-eda2-4b1d-820d-e57446eb8e7e",
+        "date": "2024-05-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent rainfall added extra features to explore without making things too challenging.",
+        "character_count": 86,
+        "guide": "Tyler",
+        "uuid": "167b78d4-87ba-4722-bbf5-ba50c8f198ac",
+        "date": "2024-08-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The water levels made navigation both fun and educational.",
+        "character_count": 58,
+        "guide": "Tyler",
+        "uuid": "2c1f6c25-6b9b-4699-9a56-8cf5b28c2cbd",
+        "date": "2024-07-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Clear skies and moderate water levels made for perfect conditions to appreciate the canyon scenery.",
+        "character_count": 99,
+        "guide": "Samantha",
+        "uuid": "19c1a564-016c-441e-b3c6-9357f63d64d9",
+        "date": "2024-05-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The way our guide incorporated local indigenous history into the journey gave us a deeper appreciation for the river.",
+        "character_count": 117,
+        "guide": "Jake",
+        "uuid": "80ee065c-c5a5-4728-935e-c5610cdffd62",
+        "date": "2024-07-14",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years, and I've done a lot of outdoor activities! The combination of adventure and natural beauty was perfect.",
+        "character_count": 140,
+        "guide": "Samantha",
+        "uuid": "c03ee5e6-a09e-4e17-86e6-cb3e591ead7d",
+        "date": "2024-07-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the pure thrill of hitting the bigger waves and rapids! The anticipation and excitement of each new challenge was incredible.",
+        "character_count": 131,
+        "guide": "Emily",
+        "uuid": "e17f9ee4-a6b0-428b-be1f-4ce1569e84b6",
+        "date": "2024-08-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "So much fun and excitement packed into one day! Worth every penny for the memories and adventures we experienced on the river.",
+        "character_count": 126,
+        "guide": "Grace",
+        "uuid": "f3119c98-6803-4edb-9aa1-d0131bcfe891",
+        "date": "2024-08-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.039163",
+        "is_negative": false
+    },
+    {
+        "comment": "The water conditions were just perfect for rafting, with ideal levels for both exciting rapids and smooth sailing between the challenges!",
+        "character_count": 137,
+        "guide": "Olivia",
+        "uuid": "d1d1694c-76f5-4748-aab6-151213d55a6d",
+        "date": "2024-06-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Ideal water levels throughout our journey.",
+        "character_count": 42,
+        "guide": "Samantha",
+        "uuid": "5472707c-aa97-41f2-bbe3-573787864982",
+        "date": "2024-06-14",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The spontaneous water fights between rafts added an element of playful competition to our adventure.",
+        "character_count": 100,
+        "guide": "Grace",
+        "uuid": "a4a971e8-d8b5-432f-b613-fcaa81eac8af",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Calm weather conditions allowed us to hear our guide's fascinating explanations about how seasonal changes affect the river.",
+        "character_count": 124,
+        "guide": "Olivia",
+        "uuid": "8d91072c-86fb-4546-a06c-7c4317c0567a",
+        "date": "2024-05-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather was ideal for combining exciting rapids with relaxing scenic sections.",
+        "character_count": 82,
+        "guide": "Daniel",
+        "uuid": "1172b311-5f3c-43b9-8f7d-a112ab2f05d8",
+        "date": "2024-07-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect visibility due to clear weather meant we could see upcoming rapids and learn about river reading techniques.",
+        "character_count": 116,
+        "guide": "Daniel",
+        "uuid": "911ff634-87fe-4c68-b29d-34e7a36021ee",
+        "date": "2024-06-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Already planning my next trip with a bigger group! This experience was too good not to share with more friends and family.",
+        "character_count": 122,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "2524212a-a7a0-421a-a76e-f89f70016aa9",
+        "date": "2024-06-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's ability to maintain a perfect balance between safety and excitement made the trip enjoyable for everyone.",
+        "character_count": 117,
+        "guide": "Mason",
+        "uuid": "2469de15-7b59-41a3-b120-92deedf2fba3",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Met some awesome people on this trip who shared our love for adventure, and the group dynamics made the experience even more enjoyable!",
+        "character_count": 135,
+        "guide": "Olivia",
+        "uuid": "74302228-9729-45bb-8ad8-1885bdc953a3",
+        "date": "2024-07-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The river's clarity was amazing due to recent weather patterns, allowing us to see fish swimming beneath our raft in calmer sections.",
+        "character_count": 133,
+        "guide": "Emily",
+        "uuid": "578d0399-8fb4-44d6-8fa1-62d8aca2a8af",
+        "date": "2024-08-10",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent snowmelt created really fun wave trains while our guide's expertise kept us feeling secure through the bigger rapids.",
+        "character_count": 124,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "1f780535-691f-4f2e-88ff-85b74044294b",
+        "date": "2024-06-14",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Learning traditional river navigation techniques from our guide added a wonderful cultural dimension to the trip.",
+        "character_count": 113,
+        "guide": "Grace",
+        "uuid": "72ce36fd-2883-49aa-a899-b6a944a6ff30",
+        "date": "2024-08-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect flows for learning river dynamics.",
+        "character_count": 42,
+        "guide": "Daniel",
+        "uuid": "5a181973-7c9a-47cf-b285-77fbdd8e0100",
+        "date": "2024-06-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The clear skies and calm winds made for perfect rafting conditions, allowing us to fully appreciate both the rapids and scenic stretches.",
+        "character_count": 137,
+        "guide": "Liam",
+        "uuid": "47003ed9-4221-4d1d-a970-7085571dd24a",
+        "date": "2024-06-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect conditions for seeing how the river changes character throughout its course.",
+        "character_count": 84,
+        "guide": "Samantha",
+        "uuid": "46afe171-1a38-4d9c-bebc-51e08dfb019c",
+        "date": "2024-09-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Stable water levels meant we could safely navigate some more technical rapids while learning river reading skills.",
+        "character_count": 114,
+        "guide": "Noah",
+        "uuid": "fb053abe-3cc5-41d3-a03d-a09af8d8d4d0",
+        "date": "2024-06-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The spring flows added extra excitement while still remaining within everyone's comfort zone.",
+        "character_count": 93,
+        "guide": "James (Senior Guide)",
+        "uuid": "6f88dd0a-bdd4-44b0-a793-874588bc46aa",
+        "date": "2024-07-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The natural hot springs stop along the river was an amazing bonus that helped soothe our muscles mid-trip.",
+        "character_count": 106,
+        "guide": "Carlos",
+        "uuid": "097e7ec1-2686-4e33-ad48-614c12128407",
+        "date": "2024-06-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Spring flowers along the riverbank added beautiful color to our trip, and the water level was perfect for exploring side channels.",
+        "character_count": 130,
+        "guide": "Samantha",
+        "uuid": "eb22d013-1188-44bd-a855-b0538c12c499",
+        "date": "2024-06-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Clear water and steady flows made it easy to spot and navigate river features.",
+        "character_count": 78,
+        "guide": "Carlos",
+        "uuid": "8ddb4e11-0a60-46e8-8c4c-05731567c919",
+        "date": "2024-06-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Lower water levels revealed fascinating rock formations and river features that our guide expertly explained throughout the journey.",
+        "character_count": 132,
+        "guide": "Samantha",
+        "uuid": "65967d45-2e14-4af9-bcbd-d9a8fdf9b367",
+        "date": "2024-08-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Beautiful weather allowed us to fully appreciate the canyon views, while the water level created exciting but manageable rapids.",
+        "character_count": 128,
+        "guide": "Mason",
+        "uuid": "f20e55e5-6f4d-4b06-8b2b-934c41243804",
+        "date": "2024-07-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Ideal conditions for photography with clear skies and water levels that showcased the river's natural beauty.",
+        "character_count": 109,
+        "guide": "James (Senior Guide)",
+        "uuid": "bda1537e-b42c-45df-b026-f57a45a4da9b",
+        "date": "2024-07-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation throughout the day, with just the right balance of intense rapids and peaceful floating sections.",
+        "character_count": 138,
+        "guide": "Noah",
+        "uuid": "270b60c0-d3f6-438e-b55d-524d942fca09",
+        "date": "2024-08-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The staff photographer captured amazing action shots of our raft hitting the big waves, giving us perfect memories to take home.",
+        "character_count": 128,
+        "guide": "Noah",
+        "uuid": "31a22e2b-1982-4598-99a5-c7a0f56a20f2",
+        "date": "2024-06-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Felt completely safe and well-cared for the entire time, thanks to the professional guidance and excellent safety briefing before launch.",
+        "character_count": 137,
+        "guide": "Emily",
+        "uuid": "6ec82b65-547b-4b7d-9ef2-0c1ee820c68d",
+        "date": "2024-06-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The high water conditions added an extra thrill to the rapids, but our experienced guide navigated them masterfully while keeping everyone safe.",
+        "character_count": 144,
+        "guide": "Emma",
+        "uuid": "f1b8b1f5-ca54-4be3-bd09-90b46ce2a55b",
+        "date": "2024-07-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide's stories about previous rafting adventures had us laughing and engaged throughout the calmer sections.",
+        "character_count": 113,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "eab48a0a-a213-44f1-b3a2-dda4e6896266",
+        "date": "2024-06-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The moderate water levels allowed us to really appreciate the river's natural features while still enjoying exciting rapids.",
+        "character_count": 124,
+        "guide": "James (Senior Guide)",
+        "uuid": "3578a66a-73dc-4bb0-8b58-5eeec074ede9",
+        "date": "2024-06-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather held perfectly for our trip, with calm morning conditions building to exciting afternoon rapids as the wind picked up.",
+        "character_count": 130,
+        "guide": "Jake",
+        "uuid": "09faafb0-9a27-4370-b87d-597f36445764",
+        "date": "2024-07-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The weather was perfect for learning new paddling skills, with moderate water levels providing various challenges.",
+        "character_count": 114,
+        "guide": "Grace",
+        "uuid": "347211f6-34eb-4687-ac9a-80ca108d47cc",
+        "date": "2024-06-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Beautiful weather allowed us to fully appreciate both the exciting rapids and peaceful sections.",
+        "character_count": 96,
+        "guide": "Grace",
+        "uuid": "be27b84c-4389-4fc6-bf6a-1b52239642db",
+        "date": "2024-08-14",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The guides' constant attention to changing river conditions helped us feel secure throughout the more challenging sections.",
+        "character_count": 123,
+        "guide": "Mason",
+        "uuid": "a5b57a56-6cc2-4515-afe6-8625691d85dc",
+        "date": "2024-08-05",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Beautiful conditions for learning river reading techniques.",
+        "character_count": 59,
+        "guide": "Tyler",
+        "uuid": "2fe27f60-7bf0-4d52-8ebc-71980f1ca74c",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect weather for spending a full day on the river.",
+        "character_count": 53,
+        "guide": "Emma",
+        "uuid": "07c6f260-aa6f-4411-8645-5c9f9a4c5b5a",
+        "date": "2024-08-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent rains had brought the river to an exciting level, making even the smaller rapids more engaging and entertaining.",
+        "character_count": 119,
+        "guide": "Emma",
+        "uuid": "628beaf0-36b6-4d71-b305-2af3c0b49e13",
+        "date": "2024-08-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The water temperature was surprisingly comfortable thanks to recent weather patterns, making splash zones fun.",
+        "character_count": 110,
+        "guide": "Ava",
+        "uuid": "223aac96-3abd-42b7-a1ed-b5fd5cc58fdb",
+        "date": "2024-08-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Water levels created perfect conditions for learning about river navigation.",
+        "character_count": 76,
+        "guide": "Chloe",
+        "uuid": "18e19ab4-cff2-4cb6-909f-c0ca5926bf33",
+        "date": "2024-08-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Beautiful conditions for river exploration.",
+        "character_count": 43,
+        "guide": "Samantha",
+        "uuid": "bb48b9f7-8269-496f-bb8f-534b9577aa86",
+        "date": "2024-07-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Recent rains created beautiful waterfall features without making the main rapids too challenging.",
+        "character_count": 97,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "e9a7e03b-303f-4454-881c-b12fd186d91c",
+        "date": "2024-07-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Warm air temperatures and refreshing water made for ideal swimming conditions during our lunch break.",
+        "character_count": 101,
+        "guide": "Grace",
+        "uuid": "d96ffa1d-fe2c-4056-a1d3-f0b44b85acac",
+        "date": "2024-06-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Amazing views around every bend that felt like scenes from a movie, with spectacular canyon walls and pristine wilderness surrounding us.",
+        "character_count": 137,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "1d5b7bbf-9bfd-4901-8832-af2dca942443",
+        "date": "2024-06-22",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The water level was perfect for learning about how different rapids form and change.",
+        "character_count": 84,
+        "guide": "Samantha",
+        "uuid": "7d67e220-f904-4fe3-8795-6821c038d48e",
+        "date": "2024-06-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "The sunset over the river was absolutely breathtaking, creating perfect photo opportunities and memorable moments for everyone.",
+        "character_count": 127,
+        "guide": "Olivia",
+        "uuid": "a0cc615c-d480-435a-a86f-fccd9caa5661",
+        "date": "2024-05-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": false
+    },
+    {
+        "comment": "Without any warning or explanation, our group was split up onto different rafts, completely ruining the team-building experience we had planned.",
+        "character_count": 144,
+        "guide": "Emma",
+        "uuid": "479b2dc0-4aa9-45cf-8fbe-8c6a5e14d9b9",
+        "date": "2024-07-05",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The entire booking process was needlessly complicated and frustrating, with an unclear website and unresponsive customer service team.",
+        "character_count": 134,
+        "guide": "James (Senior Guide)",
+        "uuid": "cf4d97f5-0524-4fee-950a-f5d8608a301d",
+        "date": "2024-07-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Concerning that the guide couldn't maintain basic raft control in calm water, making me seriously question their ability to handle any real challenges.",
+        "character_count": 151,
+        "guide": "Noah",
+        "uuid": "3a92b979-b9c4-4668-9434-dc7d1ef07ad6",
+        "date": "2024-08-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Be warned - there were numerous hidden fees that weren't mentioned during booking, making the final cost way more than what was initially advertised.",
+        "character_count": 149,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "bd9e7ecc-8f3b-4a72-b037-85325a468869",
+        "date": "2024-08-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guides spent most of their time joking among themselves rather than ensuring our safety or enjoyment, clearly more focused on their own entertainment.",
+        "character_count": 154,
+        "guide": "Sophia",
+        "uuid": "60db7bfe-1e05-4896-bd9b-abe4449c8211",
+        "date": "2024-06-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide appeared to be in training but wasn't supervised properly, missing several important safety instructions during the briefing and showing hesitation at critical moments.",
+        "character_count": 178,
+        "guide": "Noah",
+        "uuid": "fb148f04-24d5-416d-9430-71a5b8e48f72",
+        "date": "2024-06-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Alarming how our guide seemed to be learning on the job, often asking other guides for help with basic maneuvers and safety protocols that should be second nature.",
+        "character_count": 163,
+        "guide": "Sophia",
+        "uuid": "ab8e5f2c-f1e0-424e-a3c7-6832d90752de",
+        "date": "2024-08-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The rapids were far too intense for a trip marketed to beginners. Several people in our group were clearly overwhelmed and scared during the experience.",
+        "character_count": 152,
+        "guide": "Grace",
+        "uuid": "fc4040ca-c7ed-4fd9-9483-e9663743a0a3",
+        "date": "2024-06-17",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide's lack of confidence in reading water conditions was apparent, leading to several close calls that could have been easily avoided with more experience.",
+        "character_count": 161,
+        "guide": "Tyler",
+        "uuid": "a44fbf41-e540-4dc4-9066-00a4942d8ddf",
+        "date": "2024-06-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide admitted it was their first week leading trips solo, which became obvious when they struggled with basic paddle commands and timing through the rapids.",
+        "character_count": 161,
+        "guide": "Liam",
+        "uuid": "89d1b2b2-45a0-4edf-84c0-d57bc467c837",
+        "date": "2024-09-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide seemed completely uninterested in helping us and barely engaged with the group, spending most of the time chatting with other guides instead.",
+        "character_count": 151,
+        "guide": "Jake",
+        "uuid": "272c66ae-ade4-4f87-b382-6af4984c5725",
+        "date": "2024-05-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Very concerning that our guide couldn't properly explain basic safety procedures and kept looking to other rafts for guidance on which lines to take through the rapids.",
+        "character_count": 168,
+        "guide": "James (Senior Guide)",
+        "uuid": "5effc296-3476-4ee7-90f4-f710b9fc49ff",
+        "date": "2024-06-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide's lack of river knowledge was evident in their inability to explain basic water patterns and currents, making the whole experience feel unsafe.",
+        "character_count": 153,
+        "guide": "Olivia",
+        "uuid": "b7069da8-2c31-4c7c-ba05-2d4e29f3a86a",
+        "date": "2024-08-20",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide seemed overwhelmed by basic decision-making, frequently changing plans mid-rapid and creating unnecessary stress for everyone in the raft.",
+        "character_count": 148,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "4afeff43-615d-429b-9572-2c1b6aeb5b0a",
+        "date": "2024-07-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Communication before the trip was very poor regarding what to bring and expect. Many in our group were unprepared because of the lack of clear information.",
+        "character_count": 155,
+        "guide": "Tyler",
+        "uuid": "0f696721-c4c5-4873-8774-fb6e4ed19550",
+        "date": "2024-06-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide struggled with basic river navigation and seemed uncertain about which route to take through the rapids, making everyone nervous about their level of experience.",
+        "character_count": 171,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "22ef9052-33b1-43de-a850-48fdfec98d87",
+        "date": "2024-08-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The raft was overcrowded with too many people squeezed in, making it uncomfortable and difficult to paddle effectively throughout the entire trip.",
+        "character_count": 146,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "8b828439-35a7-45f7-b826-45b3327d91fc",
+        "date": "2024-08-09",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The wetsuits we were given were damp, smelly, and clearly hadn't been properly cleaned between uses, which made for a very uncomfortable experience.",
+        "character_count": 148,
+        "guide": "Olivia",
+        "uuid": "5961cfee-db16-4d5b-b30e-d3bf1d816c87",
+        "date": "2024-07-16",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The entire experience felt extremely rushed, with no time to enjoy the scenery or take photos, as the guides were constantly hurrying us along.",
+        "character_count": 143,
+        "guide": "Noah",
+        "uuid": "8849051e-a5f8-43f8-95d1-9b1d1c899299",
+        "date": "2024-06-07",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The bus ride to the starting point was uncomfortably long and hot, with no air conditioning working and several unexpected delays along the way.",
+        "character_count": 144,
+        "guide": "Olivia",
+        "uuid": "7e47dda4-0c86-4373-a2fa-dfe5106e2652",
+        "date": "2024-07-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The equipment provided was old, worn out, and poorly maintained. Several paddles showed signs of damage that made me question their safety.",
+        "character_count": 139,
+        "guide": "Tyler",
+        "uuid": "1df938ab-3630-45fa-9ba0-04dd82549df4",
+        "date": "2024-07-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Really disappointed that our guide needed constant direction from other rafts, clearly showing they weren't ready to lead groups through even moderate rapids.",
+        "character_count": 158,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "ea197fd5-ba0e-4e3d-9f6a-88ba8f701a54",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Disappointed to learn our guide had just completed training, as their inexperience showed in every aspect of river navigation and safety management.",
+        "character_count": 148,
+        "guide": "Mason",
+        "uuid": "fa70064d-b8ac-4613-8a7a-25f807124d17",
+        "date": "2024-08-05",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The marketing photos on the website were totally misleading, showing exciting rapids and pristine facilities that were nothing like what we experienced.",
+        "character_count": 152,
+        "guide": "Daniel",
+        "uuid": "7a19d944-fe6f-4835-a69b-d169d770ca4c",
+        "date": "2024-07-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The food provided for lunch was terrible, with very limited options. Several items were stale, and there were no alternatives for dietary restrictions.",
+        "character_count": 151,
+        "guide": "Jake",
+        "uuid": "f9c3c062-ded1-45f1-aa6f-a64ac04dc626",
+        "date": "2024-07-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The actual experience was completely different from what was described on the website, with fewer rapids and more basic amenities than promised.",
+        "character_count": 144,
+        "guide": "Emily",
+        "uuid": "c0a56992-2333-4310-ba12-dceb25bd1ab3",
+        "date": "2024-05-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide's inexperience was evident when they misread simple rapids, resulting in our raft getting stuck on rocks multiple times during what should have been an easy section.",
+        "character_count": 175,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "012c0474-de8e-4b5b-a823-a2e1bd9b6c55",
+        "date": "2024-07-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The water was absolutely freezing throughout the entire trip, and no one warned us beforehand to bring appropriate clothing for the conditions.",
+        "character_count": 143,
+        "guide": "Emily",
+        "uuid": "70e36ea4-146d-4260-aac5-e5b9502b6641",
+        "date": "2024-06-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The campsite facilities were poorly maintained and clearly hadn't been cleaned in a while, with trash scattered around and broken equipment everywhere.",
+        "character_count": 151,
+        "guide": "Chloe",
+        "uuid": "179121d5-8eaa-471d-b0d0-6ffbf2a7c168",
+        "date": "2024-08-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide's hesitation and uncertainty during standard river maneuvers made it clear they needed more training before leading groups independently.",
+        "character_count": 147,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "18d30e9f-70c0-4e65-87ef-84516a3aebae",
+        "date": "2024-07-10",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Multiple staff members were consistently rude and unhelpful when we asked reasonable questions about safety and equipment concerns during our trip.",
+        "character_count": 147,
+        "guide": "Emma",
+        "uuid": "e5237f41-f12e-4cb2-bcbc-5d4c2ab98071",
+        "date": "2024-06-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Deeply worried by our guide's apparent lack of experience with rescue procedures, especially after they struggled to demonstrate basic safety techniques.",
+        "character_count": 153,
+        "guide": "Carlos",
+        "uuid": "6e963758-f0b8-453d-9481-ed7af484e8de",
+        "date": "2024-08-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide's uncertainty in handling basic river features made me question the company's training standards and wonder about their hiring practices.",
+        "character_count": 147,
+        "guide": "Liam",
+        "uuid": "a352fbd5-e6b4-4ad8-b0d4-213fb3efb16f",
+        "date": "2024-05-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Most of our day was spent waiting around rather than rafting. There was too much downtime and not nearly enough actual action on the water.",
+        "character_count": 139,
+        "guide": "Daniel",
+        "uuid": "4bb904d3-b164-4cd7-922f-106794a1ab38",
+        "date": "2024-07-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The trip was significantly overpriced for what it was, especially considering the poor quality of equipment and minimal guidance we received throughout the day.",
+        "character_count": 160,
+        "guide": "Liam",
+        "uuid": "f02ab80f-dbec-4ca1-8887-cdc3cb3d1bb6",
+        "date": "2024-06-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Worrying how our guide struggled with fundamental river knowledge, unable to explain basic concepts about currents and water features to the group.",
+        "character_count": 147,
+        "guide": "Carlos",
+        "uuid": "cc0bc4c8-3442-4277-a111-24bbae2c6e9f",
+        "date": "2024-09-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Felt very unsafe at multiple points during the trip, and the guide wasn't reassuring at all when people expressed their concerns about the difficult sections.",
+        "character_count": 158,
+        "guide": "Daniel",
+        "uuid": "06a71a36-6b0c-4e07-af26-247c2e74b33e",
+        "date": "2024-05-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Despite terrible weather conditions that made the trip dangerous, no alternative dates or activities were offered, and no refunds were given.",
+        "character_count": 141,
+        "guide": "Carlos",
+        "uuid": "b4fce293-4f26-4a44-a0bb-29e90697298b",
+        "date": "2024-06-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Large portions of the trip were incredibly slow and boring, with long stretches where nothing happened and the guides provided no entertainment.",
+        "character_count": 144,
+        "guide": "Grace",
+        "uuid": "556a61d5-2965-4258-ac11-c63d45b6a74a",
+        "date": "2024-08-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide seemed more focused on remembering their training than actually leading the raft, creating a tense atmosphere throughout the entire trip.",
+        "character_count": 147,
+        "guide": "Jake",
+        "uuid": "5dd29d3a-8273-4f48-a370-a5c591a3ff6d",
+        "date": "2024-06-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Very concerning that our guide couldn't recognize simple river hazards and had to be warned by guides in other rafts about upcoming obstacles.",
+        "character_count": 142,
+        "guide": "Samantha",
+        "uuid": "3fdc7eb4-5b46-43cc-a85b-0930a685d794",
+        "date": "2024-08-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide was not engaging at all and seemed bored with the whole experience. Very disappointing compared to what was promised and what we expected.",
+        "character_count": 148,
+        "guide": "Mary (Senior Guide)",
+        "uuid": "c6221b15-4ea0-4bf1-876c-f2160a09e2e1",
+        "date": "2024-08-04",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The safety briefing was rushed and insufficient, with not nearly enough instructions given before the trip about proper paddling techniques or emergency procedures.",
+        "character_count": 164,
+        "guide": "Ava",
+        "uuid": "1b2a0149-8e3e-43d2-b7f0-5d11cd786a95",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide's inexperience became dangerous when they froze up during a moderate rapid, requiring another guide to shout instructions to our raft.",
+        "character_count": 144,
+        "guide": "Daniel",
+        "uuid": "93b597bb-034c-4a1c-8287-99afefca4dd5",
+        "date": "2024-08-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The water conditions were way too rough and dangerous for a beginner trip, definitely not what I expected or what was advertised to our group.",
+        "character_count": 142,
+        "guide": "Henry (Senior Guide)",
+        "uuid": "66eb1374-218e-48cb-8b29-b912faf9489b",
+        "date": "2024-07-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The check-in process was inefficient and disorganized. We had to wait far too long before getting started, which cut into our actual rafting time.",
+        "character_count": 146,
+        "guide": "Mason",
+        "uuid": "9112703d-e95f-42b8-90dd-9247b7e6eeef",
+        "date": "2024-07-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The guide's lack of experience showed when they couldn't properly explain the safety procedures, making many in our group uncomfortable about being on the water.",
+        "character_count": 161,
+        "guide": "Chloe",
+        "uuid": "64352669-0636-45e7-ba63-e8dda81fc7b7",
+        "date": "2024-08-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "The restroom facilities at both the start and end points were filthy and poorly maintained, completely lacking basic supplies like toilet paper and soap.",
+        "character_count": 153,
+        "guide": "Laura (Senior Guide)",
+        "uuid": "13f92c53-47d2-41ec-8be7-26c67a26381d",
+        "date": "2024-08-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "None of the safety gear provided fit properly, and when we asked for different sizes, we were told nothing else was available for our group.",
+        "character_count": 140,
+        "guide": "Sophia",
+        "uuid": "5e584f9e-08b6-4425-9328-daf84240cf08",
+        "date": "2024-07-22",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    },
+    {
+        "comment": "We expected a full-day adventure as advertised, but the actual time on the water felt way too short and rushed, definitely not worth the premium price.",
+        "character_count": 151,
+        "guide": "Carlos",
+        "uuid": "e2204ba5-d71f-4134-9d6a-08cf41e38c98",
+        "date": "2024-07-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-17T01:24:25.040162",
+        "is_negative": true
+    }
+]
