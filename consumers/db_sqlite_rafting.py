@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from typing import Dict
 from utils.utils_logger import logger
-from utils.utils_config import get_sqlite_path
+# from utils.utils_config import get_sqlite_path
 
 #####################################
 # Database Initialization
@@ -29,16 +29,12 @@ from utils.utils_config import get_sqlite_path
 def init_db(db_path: pathlib.Path) -> None:
     """
     Initialize the SQLite database. Create the 'rafting_feedback' and 'log_events' tables if they don't exist.
-
-    Args:
-        db_path (pathlib.Path): Path to the SQLite database file.
     """
     logger.info(f"Initializing SQLite database at {db_path}.")
     try:
         os.makedirs(os.path.dirname(db_path), exist_ok=True)
         with sqlite3.connect(db_path) as conn:
             cursor = conn.cursor()
-            # Create rafting_feedback table
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS rafting_feedback (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +42,7 @@ def init_db(db_path: pathlib.Path) -> None:
                     guide TEXT,
                     trip_type TEXT,
                     comment TEXT,
-                    is_negative BOOLEAN,
+                    is_negative TEXT CHECK(is_negative IN ('yes', 'no')),
                     temperature REAL,
                     weather TEXT,
                     wind_speed REAL,
@@ -54,10 +50,9 @@ def init_db(db_path: pathlib.Path) -> None:
                     river_flow REAL,
                     water_level REAL,
                     water_temperature REAL,
-                    timestamp TEXT
+                    timestamp TEXT NOT NULL
                 );
             """)
-            # Create log_events table
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS log_events (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -78,13 +73,10 @@ def init_db(db_path: pathlib.Path) -> None:
 def insert_feedback(feedback: Dict, db_path: pathlib.Path) -> None:
     """
     Insert a single feedback record into the SQLite database.
-
-    Args:
-        feedback (dict): Dictionary containing the feedback data.
-        db_path (pathlib.Path): Path to the SQLite database file.
     """
     logger.info("Inserting feedback into SQLite database.")
     try:
+        init_db(db_path)  # Ensure table exists before inserting
         with sqlite3.connect(db_path) as conn:
             cursor = conn.cursor()
             cursor.execute("""
@@ -111,9 +103,6 @@ def insert_feedback(feedback: Dict, db_path: pathlib.Path) -> None:
             conn.commit()
         log_event("INFO", f"Inserted feedback for guide: {feedback.get('guide')}", db_path)
         logger.info("SUCCESS: Feedback inserted into the database.")
-    except sqlite3.IntegrityError as e:
-        logger.error(f"Integrity error: {e}")
-        log_event("ERROR", f"Integrity error: {e}", db_path)
     except Exception as e:
         logger.error(f"ERROR: Failed to insert feedback: {e}")
         log_event("ERROR", f"Failed to insert feedback: {e}", db_path)
@@ -125,11 +114,6 @@ def insert_feedback(feedback: Dict, db_path: pathlib.Path) -> None:
 def log_event(event_type: str, message: str, db_path: pathlib.Path) -> None:
     """
     Log an event to the 'log_events' table.
-
-    Args:
-        event_type (str): Type of the event (e.g., INFO, ERROR, WARNING).
-        message (str): Description of the event.
-        db_path (pathlib.Path): Path to the SQLite database file.
     """
     try:
         with sqlite3.connect(db_path) as conn:
@@ -148,9 +132,6 @@ def log_event(event_type: str, message: str, db_path: pathlib.Path) -> None:
 def generate_guide_performance_report(db_path: pathlib.Path) -> None:
     """
     Generate a performance report for each rafting guide and save it as a CSV file.
-
-    Args:
-        db_path (pathlib.Path): Path to the SQLite database file.
     """
     logger.info("Generating guide performance report...")
     try:
@@ -176,9 +157,6 @@ def generate_guide_performance_report(db_path: pathlib.Path) -> None:
 def plot_guide_performance(db_path: pathlib.Path) -> None:
     """
     Visualize guide performance (positive vs. negative feedback).
-
-    Args:
-        db_path (pathlib.Path): Path to the SQLite database file.
     """
     logger.info("Generating guide performance visualization...")
     try:
@@ -191,7 +169,6 @@ def plot_guide_performance(db_path: pathlib.Path) -> None:
                 GROUP BY guide;
             """
             df = pd.read_sql_query(query, conn)
-        
         df.plot(kind='bar', x='guide', stacked=True)
         plt.title("Guide Performance (Positive vs. Negative Feedback)")
         plt.xlabel("Guide")
@@ -201,49 +178,3 @@ def plot_guide_performance(db_path: pathlib.Path) -> None:
         plt.show()
     except Exception as e:
         logger.error(f"ERROR: Failed to generate visualization: {e}")
-
-#####################################
-# Main Function for Testing
-#####################################
-
-def main():
-    logger.info("Starting SQLite database test.")
-    
-    # Fetch database path from environment configuration
-    db_path = pathlib.Path(get_sqlite_path())
-    
-    # Initialize the database
-    init_db(db_path)
-    
-    # Sample feedback message for testing
-    test_feedback = {
-        "date": "2025-02-16",
-        "guide": "Jake",
-        "trip_type": "Full Day",
-        "comment": "Amazing experience with breathtaking views!",
-        "is_negative": "no",
-        "temperature": 75.2,
-        "weather": "Sunny",
-        "wind_speed": 5.0,
-        "rainfall": 0.0,
-        "river_flow": 1500,
-        "water_level": 3.2,
-        "water_temperature": 68.0,
-        "timestamp": "2025-02-16T12:34:56Z"
-    }
-    
-    # Insert the sample feedback
-    insert_feedback(test_feedback, db_path)
-    
-    # Generate a guide performance report
-    generate_guide_performance_report(db_path)
-    
-    # Visualize guide performance
-    plot_guide_performance(db_path)
-
-#####################################
-# Conditional Execution
-#####################################
-
-if __name__ == "__main__":
-    main()
