@@ -46,7 +46,7 @@ def init_db(db_path: pathlib.Path) -> None:
                     guide TEXT,
                     trip_type TEXT,
                     comment TEXT,
-                    is_negative TEXT,
+                    is_negative BOOLEAN,
                     temperature REAL,
                     weather TEXT,
                     wind_speed REAL,

@@ -33,10 +33,10 @@ matplotlib.use("TkAgg")
 from utils.utils_logger import logger
 from utils.utils_config import get_sqlite_path
 
-# Ensure Python can find `db_sqlite_rafting.py` in `data/`
-sys.path.append(str(pathlib.Path(__file__).parent.parent))
+# Add the 'consumers/' directory to the module search path
+sys.path.append(str(pathlib.Path(__file__).parent))
 
-from data.db_sqlite_rafting import insert_feedback
+from db_sqlite_rafting import insert_feedback
 
 #####################################
 # Load Environment Variables
@@ -183,14 +183,14 @@ def update_chart(frame):
     plt.draw()
     plt.pause(0.1)
 
-    #####################################
-    # Save visualization at defined intervals
-    #####################################
-    if message_count == 1 or message_count % 5 == 0:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        save_path = os.path.join(SAVE_FOLDER, f"feedback_plot_{timestamp}.png")
-        plt.savefig(save_path)
-        print(f"📊 Saved visualization: {save_path}")
+# #####################################
+# # Save visualization at defined intervals
+# #####################################
+#     if message_count == 1 or message_count % 5 == 0:
+#         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+#         save_path = os.path.join(SAVE_FOLDER, f"feedback_plot_{timestamp}.png")
+#         plt.savefig(save_path)
+#         print(f"📊 Saved visualization: {save_path}")
 
 #####################################
 # Kafka Consumer Loop in a Separate Thread

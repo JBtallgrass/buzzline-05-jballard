@@ -92,7 +92,7 @@ def get_live_data_path() -> pathlib.Path:
 
 def get_sqlite_path() -> pathlib.Path:
     """Fetch SQLITE_DB_FILE_NAME from environment or use default."""
-    sqlite_path = get_base_data_path() / os.getenv("SQLITE_DB_FILE_NAME", "buzz.sqlite")
+    sqlite_path = get_base_data_path() / os.getenv("SQLITE_DB_FILE_NAME", "rafting_data.sqlite")
     logger.info(f"SQLITE_PATH: {sqlite_path}")
     return sqlite_path
 
