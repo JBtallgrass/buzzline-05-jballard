@@ -178,7 +178,7 @@ def plot_guide_performance(df):
     plt.xticks(rotation=45)
 
 def plot_negative_feedback_trend(df):
-    negative_feedback = df[df['is_negative'] == True]
+    negative_feedback = df[df['is_negative'] is True]
     negative_feedback.groupby('date').size().plot(kind='line', ax=plt.gca())
     plt.title("Daily Negative Feedback Trend")
     plt.xlabel("Date")
@@ -205,9 +205,13 @@ def main():
         group_id="jb_rafting_group",
         value_deserializer=lambda x: json.loads(x.decode("utf-8"))
     )
-
+    # Create and display the figure
     fig = plt.figure(figsize=(12, 10))
+    global ani
     ani = FuncAnimation(fig, update_chart, interval=2000)
+
+    plt.ion()  # Enable interactive mode
+    plt.show(block=False)  # Ensure visualization opens but doesn't block execution
 
     try:
         for message in consumer:
@@ -225,7 +229,6 @@ def main():
     except Exception as e:
         logger.error(f"❌ Error in Kafka consumer: {e}")
     finally:
-        plt.show()
         consumer.close()
 
 #####################################

@@ -163,19 +163,30 @@ Here’s the workflow for the project:
 └── README.md              # Project documentation
 ```
 ---
-### Final Overview: the The full data Flow
+### 📊 Final Overview: The Full Data Flow
 
   Zookeeper -->|Manages Brokers| --> KafkaBroker;
+
   KafkaBroker -->|Creates Topics|  --> Rafting_Producer;
+
   Rafting_Producer -->|Sends Messages|  --> Rafting_Feedback;
+
   Rafting_Feedback -->|Consumes Messages|  --> jb_Rafting_Consumer;
+
   jb_Rafting_Consumer -->|Stores in SQLite|  --> SQLite_DB;
+
   Rafting_Feedback -->|Processes & Republishes|  --> csv_Rafting_Consumer;
+
   csv_Rafting_Consumer -->|Sends Structured Data|  --> Rafting_CSV_Feedback;
+
   Rafting_CSV_Feedback -->|Consumes & Stores in SQLite|  --> csv_Feedback_Consumer;
+
   Rafting_CSV_Feedback -->|Processes & Republishes|  --> csv_Rafting_Producer;
+
   csv_Rafting_Producer -->|Sends Processed Data|  --> Processed_CSV_Feedback;
+
   wx_Producer -->|Generates Weather Data|  --> Weather_JSON;
+
   Weather_JSON -->|Consumes & Visualizes|  --> wx_Consumer;
 
 ---
