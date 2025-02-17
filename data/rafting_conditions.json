@@ -1,0 +1,920 @@
+[
+    {
+        "date": "2024-05-24",
+        "river_flow": 3404,
+        "water_level": 4.78,
+        "water_temperature": 69,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.28,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-05-25",
+        "river_flow": 2174,
+        "water_level": 4.11,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.05,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-05-26",
+        "river_flow": 2146,
+        "water_level": 4.14,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.92,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-05-27",
+        "river_flow": 2849,
+        "water_level": 2.62,
+        "water_temperature": 61,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.71,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-05-28",
+        "river_flow": 2247,
+        "water_level": 5.55,
+        "water_temperature": 60,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.3,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-05-29",
+        "river_flow": 1655,
+        "water_level": 3.59,
+        "water_temperature": 56,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.11,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-05-30",
+        "river_flow": 1869,
+        "water_level": 2.96,
+        "water_temperature": 73,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.93,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-05-31",
+        "river_flow": 3195,
+        "water_level": 2.53,
+        "water_temperature": 58,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.37,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-01",
+        "river_flow": 859,
+        "water_level": 3.9,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class II",
+        "recent_precipitation": 1.32,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-02",
+        "river_flow": 2557,
+        "water_level": 3.68,
+        "water_temperature": 70,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.94,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-03",
+        "river_flow": 2243,
+        "water_level": 5.26,
+        "water_temperature": 69,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.29,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-04",
+        "river_flow": 2084,
+        "water_level": 4.64,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.51,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-05",
+        "river_flow": 3058,
+        "water_level": 5.63,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.92,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-06",
+        "river_flow": 1214,
+        "water_level": 5.22,
+        "water_temperature": 73,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.77,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-07",
+        "river_flow": 972,
+        "water_level": 3.41,
+        "water_temperature": 66,
+        "rapid_difficulty": "Class II",
+        "recent_precipitation": 0.26,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-08",
+        "river_flow": 2421,
+        "water_level": 3.84,
+        "water_temperature": 68,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.91,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-09",
+        "river_flow": 3392,
+        "water_level": 4.2,
+        "water_temperature": 55,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.76,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-10",
+        "river_flow": 2812,
+        "water_level": 5.52,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.19,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-11",
+        "river_flow": 3343,
+        "water_level": 3.33,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.98,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-12",
+        "river_flow": 1535,
+        "water_level": 3.28,
+        "water_temperature": 69,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.92,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-13",
+        "river_flow": 2754,
+        "water_level": 3.76,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.34,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-14",
+        "river_flow": 1440,
+        "water_level": 3.45,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.94,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-15",
+        "river_flow": 2222,
+        "water_level": 3.62,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.61,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-16",
+        "river_flow": 2384,
+        "water_level": 4.32,
+        "water_temperature": 64,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.52,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-17",
+        "river_flow": 3091,
+        "water_level": 4.52,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.09,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-18",
+        "river_flow": 2767,
+        "water_level": 2.8,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.01,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-19",
+        "river_flow": 1200,
+        "water_level": 4.15,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.38,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-20",
+        "river_flow": 2064,
+        "water_level": 3.71,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.34,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-21",
+        "river_flow": 2613,
+        "water_level": 3.1,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.94,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-22",
+        "river_flow": 2440,
+        "water_level": 4.9,
+        "water_temperature": 61,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.84,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-06-23",
+        "river_flow": 2918,
+        "water_level": 5.71,
+        "water_temperature": 58,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.66,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-24",
+        "river_flow": 1374,
+        "water_level": 4.31,
+        "water_temperature": 64,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.5,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-25",
+        "river_flow": 1848,
+        "water_level": 3.11,
+        "water_temperature": 74,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.62,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-26",
+        "river_flow": 3325,
+        "water_level": 3.0,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.92,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-27",
+        "river_flow": 3036,
+        "water_level": 5.0,
+        "water_temperature": 56,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.69,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-28",
+        "river_flow": 1247,
+        "water_level": 4.78,
+        "water_temperature": 55,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.96,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-06-29",
+        "river_flow": 3223,
+        "water_level": 3.05,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.65,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-06-30",
+        "river_flow": 3096,
+        "water_level": 4.74,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.39,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-01",
+        "river_flow": 2319,
+        "water_level": 2.53,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.17,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-02",
+        "river_flow": 3160,
+        "water_level": 2.99,
+        "water_temperature": 65,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.16,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-03",
+        "river_flow": 3398,
+        "water_level": 3.67,
+        "water_temperature": 62,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.55,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-04",
+        "river_flow": 3402,
+        "water_level": 2.75,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.34,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-05",
+        "river_flow": 912,
+        "water_level": 4.43,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class II",
+        "recent_precipitation": 1.03,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-06",
+        "river_flow": 1083,
+        "water_level": 3.74,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.14,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-07",
+        "river_flow": 1359,
+        "water_level": 2.9,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.57,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-08",
+        "river_flow": 3077,
+        "water_level": 3.37,
+        "water_temperature": 66,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.62,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-09",
+        "river_flow": 1139,
+        "water_level": 4.83,
+        "water_temperature": 58,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.35,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-10",
+        "river_flow": 1304,
+        "water_level": 4.1,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.39,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-11",
+        "river_flow": 2733,
+        "water_level": 5.44,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.14,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-12",
+        "river_flow": 1446,
+        "water_level": 5.1,
+        "water_temperature": 73,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.2,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-13",
+        "river_flow": 2072,
+        "water_level": 3.99,
+        "water_temperature": 61,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.68,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-14",
+        "river_flow": 1951,
+        "water_level": 5.84,
+        "water_temperature": 74,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.45,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-15",
+        "river_flow": 2838,
+        "water_level": 3.52,
+        "water_temperature": 56,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.28,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-16",
+        "river_flow": 2981,
+        "water_level": 4.0,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.96,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-17",
+        "river_flow": 2083,
+        "water_level": 5.87,
+        "water_temperature": 66,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.72,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-18",
+        "river_flow": 1036,
+        "water_level": 5.61,
+        "water_temperature": 64,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.3,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-19",
+        "river_flow": 1739,
+        "water_level": 5.06,
+        "water_temperature": 55,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.16,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-20",
+        "river_flow": 2183,
+        "water_level": 3.22,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.35,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-21",
+        "river_flow": 2315,
+        "water_level": 4.83,
+        "water_temperature": 61,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.01,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-22",
+        "river_flow": 1352,
+        "water_level": 3.78,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.26,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-23",
+        "river_flow": 1749,
+        "water_level": 4.79,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.53,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-24",
+        "river_flow": 3327,
+        "water_level": 3.69,
+        "water_temperature": 66,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.48,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-25",
+        "river_flow": 2233,
+        "water_level": 4.05,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.5,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-26",
+        "river_flow": 2461,
+        "water_level": 5.79,
+        "water_temperature": 58,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.81,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-07-27",
+        "river_flow": 3079,
+        "water_level": 3.89,
+        "water_temperature": 74,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.58,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-28",
+        "river_flow": 1132,
+        "water_level": 5.0,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.75,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-29",
+        "river_flow": 1199,
+        "water_level": 4.98,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.89,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-07-30",
+        "river_flow": 1027,
+        "water_level": 5.1,
+        "water_temperature": 69,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.32,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-07-31",
+        "river_flow": 2543,
+        "water_level": 3.31,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.98,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-01",
+        "river_flow": 1979,
+        "water_level": 4.96,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.88,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-02",
+        "river_flow": 1922,
+        "water_level": 4.67,
+        "water_temperature": 70,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.72,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-03",
+        "river_flow": 897,
+        "water_level": 3.63,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class II",
+        "recent_precipitation": 0.38,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-04",
+        "river_flow": 3326,
+        "water_level": 4.02,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.75,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-05",
+        "river_flow": 3037,
+        "water_level": 5.81,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.79,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-06",
+        "river_flow": 3397,
+        "water_level": 4.17,
+        "water_temperature": 60,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.11,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-07",
+        "river_flow": 2326,
+        "water_level": 4.12,
+        "water_temperature": 70,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.23,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-08",
+        "river_flow": 2922,
+        "water_level": 5.13,
+        "water_temperature": 65,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.99,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-09",
+        "river_flow": 2448,
+        "water_level": 3.64,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.09,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-10",
+        "river_flow": 2775,
+        "water_level": 2.72,
+        "water_temperature": 59,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.85,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-11",
+        "river_flow": 916,
+        "water_level": 4.55,
+        "water_temperature": 73,
+        "rapid_difficulty": "Class II",
+        "recent_precipitation": 0.87,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-12",
+        "river_flow": 1624,
+        "water_level": 5.46,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.05,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-13",
+        "river_flow": 3461,
+        "water_level": 3.35,
+        "water_temperature": 66,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.5,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-14",
+        "river_flow": 2914,
+        "water_level": 4.6,
+        "water_temperature": 70,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.83,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-15",
+        "river_flow": 3467,
+        "water_level": 5.53,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.47,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-16",
+        "river_flow": 1584,
+        "water_level": 3.71,
+        "water_temperature": 69,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.79,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-17",
+        "river_flow": 1058,
+        "water_level": 3.21,
+        "water_temperature": 75,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.89,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-18",
+        "river_flow": 1269,
+        "water_level": 4.98,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.1,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-19",
+        "river_flow": 3245,
+        "water_level": 3.26,
+        "water_temperature": 56,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.15,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-20",
+        "river_flow": 1748,
+        "water_level": 4.87,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.04,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-21",
+        "river_flow": 1549,
+        "water_level": 4.87,
+        "water_temperature": 65,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.95,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-22",
+        "river_flow": 2934,
+        "water_level": 5.35,
+        "water_temperature": 71,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.54,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-23",
+        "river_flow": 1331,
+        "water_level": 5.25,
+        "water_temperature": 55,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.35,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-24",
+        "river_flow": 1327,
+        "water_level": 5.76,
+        "water_temperature": 60,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.69,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-25",
+        "river_flow": 3161,
+        "water_level": 5.3,
+        "water_temperature": 68,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.23,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-26",
+        "river_flow": 3496,
+        "water_level": 2.63,
+        "water_temperature": 68,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.85,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-27",
+        "river_flow": 1861,
+        "water_level": 3.04,
+        "water_temperature": 67,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 0.97,
+        "river_condition": "Safe"
+    },
+    {
+        "date": "2024-08-28",
+        "river_flow": 2102,
+        "water_level": 3.04,
+        "water_temperature": 56,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.39,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-29",
+        "river_flow": 1751,
+        "water_level": 2.98,
+        "water_temperature": 72,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 2.0,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-08-30",
+        "river_flow": 2313,
+        "water_level": 2.75,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.0,
+        "river_condition": "Moderate Risk"
+    },
+    {
+        "date": "2024-08-31",
+        "river_flow": 2925,
+        "water_level": 3.05,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 1.72,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-09-01",
+        "river_flow": 1989,
+        "water_level": 2.93,
+        "water_temperature": 57,
+        "rapid_difficulty": "Class III",
+        "recent_precipitation": 1.03,
+        "river_condition": "High Risk"
+    },
+    {
+        "date": "2024-09-02",
+        "river_flow": 2898,
+        "water_level": 4.73,
+        "water_temperature": 63,
+        "rapid_difficulty": "Class IV",
+        "recent_precipitation": 0.56,
+        "river_condition": "Moderate Risk"
+    }
+]

@@ -54,8 +54,8 @@ def get_kafka_broker_address() -> str:
 
 def get_kafka_topic() -> str:
     """Fetch BUZZ_TOPIC from environment or use default."""
-    topic = os.getenv("BUZZ_TOPIC", "buzzline")
-    logger.info(f"BUZZ_TOPIC: {topic}")
+    topic = os.getenv("RAFTING_TOPIC", "rafting_feedback")
+    logger.info(f"RAFTING_TOPIC: {topic}")
     return topic
 
 
@@ -68,8 +68,8 @@ def get_message_interval_seconds_as_int() -> int:
 
 def get_kafka_consumer_group_id() -> str:
     """Fetch BUZZ_CONSUMER_GROUP_ID from environment or use default."""
-    group_id = os.getenv("BUZZ_CONSUMER_GROUP_ID", "buzz_group")
-    logger.info(f"BUZZ_CONSUMER_GROUP_ID: {group_id}")
+    group_id = os.getenv("RAFTING_CONSUMER_GROUP_ID", "rafting_consumer_group")
+    logger.info(f"RAFTING_CONSUMER_GROUP_ID: {group_id}")
     return group_id
 
 
