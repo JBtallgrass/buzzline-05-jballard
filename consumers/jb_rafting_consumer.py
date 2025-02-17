@@ -45,10 +45,20 @@ if not KAFKA_BROKER or not KAFKA_TOPIC:
     raise EnvironmentError("Missing required environment variables.")
 
 #####################################
+# Create folder for saving plots
+SAVE_FOLDER = "visualizations"
+os.makedirs(SAVE_FOLDER, exist_ok=True)
+
+# Global counter for messages processed
+message_count = 0
+
+#####################################
+
+#####################################
 # Initialize SQLite Database
 #####################################
 
-DB_FILE = "rafting_feedback.db"
+DB_FILE = os.path.join("data", "rafting_feedback.db")
 
 def init_db():
     """Initialize SQLite database and create tables if they do not exist."""
@@ -78,6 +88,7 @@ init_db()  # Initialize database on startup
 #####################################
 
 data_buffer = []
+message_count = 0  # Initialize message count
 guide_feedback = defaultdict(lambda: {"positive": 0, "negative": 0})
 weekly_feedback = defaultdict(lambda: {"positive": 0, "negative": 0})
 negative_feedback_log = []
@@ -134,6 +145,7 @@ def save_to_database(guide, comment, is_negative, trip_date, week_number):
 #####################################
 
 def update_chart(frame):
+    global message_count
     if not data_buffer:
         return
 
@@ -142,6 +154,9 @@ def update_chart(frame):
     df["week"] = df["date"].dt.isocalendar().week
 
     plt.clf()
+    plt.figure(figsize=(14, 10))  
+    plt.subplots_adjust(hspace=0.4, wspace=0.3)
+
     plt.subplot(2, 2, 1)
     plot_sentiment_distribution(df)
     
@@ -155,7 +170,21 @@ def update_chart(frame):
     plot_negative_feedback_trend(df)
     
     plt.tight_layout()
+    plt.draw()  # 🔹 Force Matplotlib to refresh
+    plt.pause(0.1)  # 🔹 Allow the GUI to update
 
+#####################################
+#Save visualization at defined intervals
+#####################################
+
+   # Save visualization at defined intervals
+    if message_count == 5 or (message_count > 10 and (message_count - 10) % 50 == 0):
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        save_path = os.path.join(SAVE_FOLDER, f"feedback_plot_{timestamp}.png")
+        plt.savefig(save_path)
+        print(f"📊 Saved visualization: {save_path}")
+
+    message_count += 1  # Increment the message counter
 #####################################
 # Visualization Functions
 #####################################
@@ -208,7 +237,7 @@ def main():
     # Create and display the figure
     fig = plt.figure(figsize=(12, 10))
     global ani
-    ani = FuncAnimation(fig, update_chart, interval=2000)
+    ani = FuncAnimation(fig, update_chart, interval=2000, cache_frame_data=False)
 
     plt.ion()  # Enable interactive mode
     plt.show(block=False)  # Ensure visualization opens but doesn't block execution
