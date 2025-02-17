@@ -1,6 +1,22 @@
+"""
+jb_rafting_consumer.py
+
+Consumes JSON messages from a Kafka topic (`rafting_feedback`) 
+and processes them for real-time visualization and database storage.
+
+This script:
+- Logs ALL customer feedback.
+- Flags negative comments with a red 🛑.
+- Tracks weekly guide performance trends.
+- Stores feedback in an SQLite database for analysis.
+- Generates real-time visualizations of sentiment trends.
+
+"""
+
 import os
 import json
 import time
+import sqlite3
 from collections import defaultdict
 from datetime import datetime
 from kafka import KafkaConsumer
@@ -9,6 +25,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import matplotlib
+
 matplotlib.use("TkAgg")
 
 
@@ -20,12 +37,41 @@ from utils.utils_logger import logger
 
 load_dotenv()
 
-KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
+KAFKA_BROKER = os.getenv("KAFKA_BROKER", "172.30.179.152:9092")
 KAFKA_TOPIC = os.getenv("RAFTING_TOPIC", "rafting_feedback")
 
 if not KAFKA_BROKER or not KAFKA_TOPIC:
     logger.critical("❌ Missing required environment variables.")
     raise EnvironmentError("Missing required environment variables.")
+
+#####################################
+# Initialize SQLite Database
+#####################################
+
+DB_FILE = "rafting_feedback.db"
+
+def init_db():
+    """Initialize SQLite database and create tables if they do not exist."""
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        CREATE TABLE IF NOT EXISTS feedback (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            guide TEXT,
+            comment TEXT,
+            is_negative BOOLEAN,
+            trip_date TEXT,
+            week INTEGER,
+            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+    )
+    conn.commit()
+    conn.close()
+    logger.info("✅ SQLite database initialized.")
+
+init_db()  # Initialize database on startup
 
 #####################################
 # Initialize Tracking Data
@@ -37,28 +83,51 @@ weekly_feedback = defaultdict(lambda: {"positive": 0, "negative": 0})
 negative_feedback_log = []
 
 #####################################
-# Message Processing
+# Message Processing and Database Insertion
 #####################################
 
 def process_message(message):
+    """Process a single feedback message and store it in SQLite."""
     try:
         guide = message.get("guide", "unknown")
         comment = message.get("comment", "No comment provided")
-        is_negative = message.get("is_negative", False)
+        is_negative = bool(message.get("is_negative", False))
         trip_date = message.get("date", "unknown")
 
+        # Convert trip date to week number
         week_number = datetime.strptime(trip_date, "%Y-%m-%d").isocalendar()[1]
         feedback_type = "negative" if is_negative else "positive"
 
+        # Update tracking structures
         guide_feedback[guide][feedback_type] += 1
         weekly_feedback[(guide, week_number)][feedback_type] += 1
 
         if is_negative:
             negative_feedback_log.append(message)
 
+        # Store in SQLite database
+        save_to_database(guide, comment, is_negative, trip_date, week_number)
+
         logger.info(f"📝 Feedback ({trip_date}) | Guide: {guide} | Comment: {comment}")
     except Exception as e:
         logger.error(f"❌ Error processing message: {e}")
+
+def save_to_database(guide, comment, is_negative, trip_date, week_number):
+    """Save processed feedback data to SQLite database."""
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute(
+            """
+            INSERT INTO feedback (guide, comment, is_negative, trip_date, week)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (guide, comment, is_negative, trip_date, week_number),
+        )
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        logger.error(f"❌ Error saving to database: {e}")
 
 #####################################
 # Real-Time Visualization
@@ -127,6 +196,7 @@ def plot_sentiment_distribution(df):
 #####################################
 
 def main():
+    """Main function to start the Kafka consumer and process messages."""
     logger.info("🚀 Starting jb_rafting_consumer.")
     consumer = KafkaConsumer(
         KAFKA_TOPIC,
@@ -145,6 +215,7 @@ def main():
             process_message(message_dict)
             data_buffer.append(message_dict)
 
+            # Keep buffer size manageable
             if len(data_buffer) > 1000:
                 data_buffer.pop(0)
 
