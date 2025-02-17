@@ -12,12 +12,13 @@ import matplotlib
 matplotlib.use("TkAgg")
 import sys
 import pathlib
+
 # Add the 'consumers' directory to the Python path
 sys.path.append(str(pathlib.Path(__file__).parent))
 
 # Now import the database functions
 from consumers.db_sqlite_rafting import insert_feedback
-
+from utils.utils_config import get_sqlite_path  # Import this to fetch the database path
 from utils.utils_logger import logger
 
 
@@ -63,11 +64,15 @@ def process_message(message):
         if is_negative:
             negative_feedback_log.append(message)
 
-        # insert into SQLite database
-        insert_feedback(message)    
+       # ✅ Use `get_sqlite_path()` to get the database path
+        db_path = get_sqlite_path()  
+        
+        # ✅ Pass `db_path` when calling `insert_feedback`
+        insert_feedback(message, db_path)  
 
         logger.info(f"📝 Feedback ({trip_date}) | Guide: {guide} | Comment: {comment}")
     except Exception as e:
+        
         logger.error(f"❌ Error processing message: {e}")
 
 #####################################
